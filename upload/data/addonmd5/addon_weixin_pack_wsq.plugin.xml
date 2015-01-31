@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[addon_weixin_pack_wsq.plugin]]></item>
+	<item id="RevisionID"><![CDATA[34159]]></item>
+	<item id="SN"><![CDATA[2014122915x3XmHfsvAW]]></item>
+	<item id="RevisionDateline"><![CDATA[1397217601]]></item>
+	<item id="Data">
+		<item id="/addon.inc.php"><![CDATA[e33b688b18f26bdca886ba7ad7eff573]]></item>
+		<item id="/changelog.inc.php"><![CDATA[7d468385112d006d72d9235c6c5bcc44]]></item>
+		<item id="/check.php"><![CDATA[b737afafc0b552ddfe828303e0a0e302]]></item>
+		<item id="/demo.php"><![CDATA[ba7a221d003a549ac153adb0befbaf53]]></item>
+		<item id="/discuz_plugin_addon_weixin_pack_wsq_SC_GBK.xml"><![CDATA[83ea34322a421fec34b3da75d44f7b0e]]></item>
+		<item id="/discuz_plugin_addon_weixin_pack_wsq_SC_UTF8.xml"><![CDATA[b9e547df4578bda6345a173e365e997d]]></item>
+		<item id="/discuz_plugin_addon_weixin_pack_wsq_TC_BIG5.xml"><![CDATA[cd882b07c2f1dcb507d13da8e57d805c]]></item>
+		<item id="/discuz_plugin_addon_weixin_pack_wsq_TC_UTF8.xml"><![CDATA[d43c75932eb056c378e440f75e4d3d19]]></item>
+		<item id="/faq.inc.php"><![CDATA[79e41eede4fb221ac2ce6988c49deaef]]></item>
+		<item id="/feedback.inc.php"><![CDATA[96b1473f59439a2d47aa476ab5b9e5e7]]></item>
+		<item id="/images/faq.gif"><![CDATA[2016bd6b1d980e1609ecad8d4c40085b]]></item>
+		<item id="/images/index.htm"><![CDATA[2d5cedb1ff5b74ad3519ffe076a0f22d]]></item>
+		<item id="/images/index.html"><![CDATA[2d5cedb1ff5b74ad3519ffe076a0f22d]]></item>
+		<item id="/index.htm"><![CDATA[2d5cedb1ff5b74ad3519ffe076a0f22d]]></item>
+		<item id="/index.html"><![CDATA[2d5cedb1ff5b74ad3519ffe076a0f22d]]></item>
+		<item id="/install.php"><![CDATA[6461a39247f4d266001ca877ce3da6b4]]></item>
+		<item id="/installlang.lang.php"><![CDATA[24a6c5ca88cdbbe2d242868a52e0789c]]></item>
+		<item id="/pluginvar.func.php"><![CDATA[44442654661728c50f1fc976a0f7b2c9]]></item>
+		<item id="/template/faq.htm"><![CDATA[0a2e4afc665a1fb7bed4cb0f49619ce8]]></item>
+		<item id="/template/index.htm"><![CDATA[2d5cedb1ff5b74ad3519ffe076a0f22d]]></item>
+		<item id="/template/index.html"><![CDATA[2d5cedb1ff5b74ad3519ffe076a0f22d]]></item>
+		<item id="/thank.inc.php"><![CDATA[3c4f569b031c0b5a1cf969d560c83462]]></item>
+		<item id="/uninstall.php"><![CDATA[7fc8d997765e7ec2610c81c9354a3520]]></item>
+		<item id="/upgrade.php"><![CDATA[6461a39247f4d266001ca877ce3da6b4]]></item>
+	</item>
+</root>

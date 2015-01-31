@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X2]]></item>
+	<item id="Time"><![CDATA[2014-04-11 18:29]]></item>
+	<item id="From"><![CDATA[Discuz! Board (http://www.ceshi.com/SZQQ/X2/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[[1314]·L«H·LªÀ°Ï]]></item>
+			<item id="identifier"><![CDATA[addon_weixin_pack_wsq]]></item>
+			<item id="description"><![CDATA[©w¨îÁp¨tQQ¡J15326940]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[addon_weixin_pack_wsq/]]></item>
+			<item id="copyright"><![CDATA[1314¾Ç²ßºô¡]www.discuz.1314study.com¡^]]></item>
+			<item id="modules"><![CDATA[a:0:{}]]></item>
+			<item id="version"><![CDATA[1.0.0]]></item>
+		</item>
+		<item id="version"><![CDATA[X1.5,X2,X2.5,X3,X3.1]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[·LªÀ°Ï¦a§}]]></item>
+				<item id="description"><![CDATA[·LªÀ°Ï¥Ó½Ð¦a§}¡Jhttp://wsq.qq.com/]]></item>
+				<item id="variable"><![CDATA[wsq_url]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[http://wx.wsq.qq.com/209848240]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+		<item id="upgradefile"><![CDATA[upgrade.php]]></item>
+		<item id="checkfile"><![CDATA[check.php]]></item>
+	</item>
+</root>

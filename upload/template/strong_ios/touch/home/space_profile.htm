@@ -1,0 +1,124 @@
+<!--{if $_GET['mycenter'] && !$_G['uid']}-->
+	<!--{eval dheader('Location:member.php?mod=logging&action=login');exit;}-->
+<!--{/if}-->
+<!--{template common/header}-->
+<style>.bg{background:#e7ecf0;}</style>
+<!--{if !$_GET['mycenter']}-->
+<div  class="s_dh">
+		<div class="s_z s_fl  s_w50"><a href="home.php?mod=space&do=profile&mycenter=1" class=" fa fa-chevron-left fa-2x "></a></div>
+     	<div class="s_z s_fr  s_w50"><a href="javascript:;" class="fa  fa-2x"></a></div>
+     	<div class="s_z s_tac " ><a href="javascript:;" class="colf">{echo $lang['profile'];}</a></div>
+
+</div>
+<div id="wrapper">
+
+
+
+
+<!-- userinfo start -->
+<div class="userinfo">
+	<div class="user_avatar">
+		<div class="avatar_m"><span><img src="<!--{avatar($_G[uid], small, true)}-->" /></span></div>
+		<div>
+			<h2 class="name">{$space[username]}</h2>
+
+				<!--{if $_G['setting']['allowviewuserthread'] !== false}-->
+
+						<!--{eval $space['posts'] = $space['posts'] - $space['threads'];}-->
+						<span class="huibaicolor">{lang replay_num}&nbsp;<font class="huicolor">$space[posts]</font></span>&nbsp;&nbsp;
+
+						<span class="huibaicolor">{lang threads_num}&nbsp;<font class="huicolor">$space[threads]</font></span>
+				<!--{/if}-->
+		</div>
+		<div class="gexingqm">
+			<h5>{echo $lang['gexingqianming'];}</h5>
+			<span><!--{if $space[group][maxsigsize] && $space[sightml]}-->$space[sightml]<!--{/if}--></span>
+		</div>
+
+	</div>
+	<div class="myinfo_list">
+		<ul>
+
+			<!--{loop $_G[setting][extcredits] $key $value}-->
+			<!--{if $value[title]}-->
+			<li class="ml_bb"><a href=""><span>&nbsp;&nbsp;$value[title]</span>&nbsp;&nbsp;&nbsp;&nbsp;{$space["extcredits$key"]} $value[unit]<i class="fa
+ fa-angle-right fa-15x s_fr s_mr_10"></i></a></li>
+			<!--{/if}-->
+			<!--{/loop}-->
+			<li ><a href=""><span>&nbsp;&nbsp;{lang credits}</span> &nbsp;&nbsp;&nbsp;&nbsp;$space[credits]<i class="fa
+ fa-angle-right fa-15x s_fr s_mr_10"></i></a></li>
+
+
+		</ul>
+	</div>
+	<!--{if $space['uid'] == $_G['uid']}-->
+	<div class="btn_exit"><a href="member.php?mod=logging&action=logout&formhash={FORMHASH}">{lang logout_mobile}</a></div>
+	<!--{/if}-->
+</div>
+<!-- userinfo end -->
+
+<!--{else}-->
+
+<div  class="s_dh">
+		<div class="s_z s_fl  s_w50"><a href="forum.php?forumlist=1" class=" fa fa-chevron-left fa-2x "></a></div>
+     	<div class="s_z s_fr  s_w50"><a href="javascript:;" class="fa  fa-2x"></a></div>
+     	<div class="s_z s_tac " ><a href="javascript:;" class="colf">{echo $lang['gerenzhongxin'];}</a></div>
+
+</div>
+<div id="wrapper">
+<!-- userinfo start -->
+<div class="userinfo">
+	<div class="user_avatar">
+		<div class="avatar_m"><span><img src="<!--{avatar($_G[uid], small, true)}-->" /></span></div>
+		<div>
+			<h2 class="name">$_G[username]</h2>
+
+				<!--{if $_G['setting']['allowviewuserthread'] !== false}-->
+
+						<!--{eval $space['posts'] = $space['posts'] - $space['threads'];}-->
+						<span class="huibaicolor">{lang replay_num}&nbsp;<font class="huicolor">$space[posts]</font></span>&nbsp;&nbsp;
+
+						<span class="huibaicolor">{lang threads_num}&nbsp;<font class="huicolor">$space[threads]</font></span>
+				<!--{/if}-->
+		</div>
+		<div class="gexingqm">
+			<h5>{echo $lang['gexingqianming'];}</h5>
+			<span><!--{if $space[group][maxsigsize] && $space[sightml]}-->$space[sightml]<!--{/if}--></span>
+		</div>
+	</div>
+	<div class="myinfo_list">
+		<ul>
+			<li class="ml_bb"><a href="home.php?mod=space&uid={$_G[uid]}&do=favorite&view=me&type=thread"><img src="./template/strong_ios/images/s_shoucang.png"/><span>{lang myfavorite}</span> <i class="fa
+ fa-angle-right fa-15x s_fr s_mr_10"></i></a></li>
+			<li ><a href="home.php?mod=space&uid={$_G[uid]}&do=thread&view=me"><img src="./template/strong_ios/images/s_zhuti.png"/><span>{lang mythread}</span><i class="fa
+ fa-angle-right fa-15x s_fr s_mr_10"></i></a></li>
+		</ul>
+	</div>
+	<div class="myinfo_list">
+		<ul>
+			<li><a href="home.php?mod=space&do=pm"><img src="./template/strong_ios/images/s_xiaoxi.png"/><span>{lang mypm}</span><!--{if $_G[member][newpm]}--><em class="s_newsmp">new</em><!--{/if}--><i class="fa
+ fa-angle-right fa-15x s_fr s_mr_10"></i></a></li>
+		</ul>
+	</div>
+	<div class="myinfo_list">
+		<ul>
+			<li ><a href="home.php?mod=space&uid={$_G[uid]}"><img src="./template/strong_ios/images/s_ziliao.png"/><span>{lang myprofile}</span><i class="fa
+ fa-angle-right fa-15x s_fr s_mr_10"></i></a></li>
+		</ul>
+	</div>
+</div>
+<!-- userinfo end -->
+
+<!--{/if}-->
+</div>
+<!--{eval $nofooter = true;}-->
+
+<div class="s_footer">
+	<ul>
+    	<li><a href="forum.php"><i class="fa fa-home fa-15x "></i><em>{echo $lang['home'];}</em></a></li>
+        <li ><a href="forum.php?forumlist=1" ><i class="fa  fa-comments fa-15x"></i><em>{echo $lang['forum'];}</em></a></li>
+        <li class="s_fcolor"><a href="home.php?mod=space&uid={$_G[uid]}&do=profile&mycenter=1"><i class="fa  fa-user fa-15x "></i><em>{echo $lang['geren'];}</em></a></li>
+        <li><a href="forum.php?mod=gengduo"><i class="fa  fa-ellipsis-h fa-15x "></i><em>{echo $lang['gengduo'];}</em></a></li>
+    </ul>
+</div>
+<!--{template common/footer}-->

@@ -1,0 +1,61 @@
+<!--{template common/header}-->
+
+<!-- header start -->
+<div  class="s_dh">
+		<div class="s_z s_fl  s_w50"><a href="home.php?mod=space&uid={$_G[uid]}&do=profile&mycenter=1" class=" fa fa-chevron-left fa-2x "></a></div>
+     	<div class="s_z s_fr  s_w50"><a href="javascript:;"  class="fa  fa-2x"></a></div>
+     	<div class="s_z s_tac " ><a href="javascript:;" class="colf" >{lang mythread}</a></div>
+
+</div>
+<div id="wrapper">
+<!-- header end -->
+<!-- main threadlist start -->
+<div class="threadlist">
+	<ul>
+	<!--{if $list}-->
+		<!--{loop $list $thread}-->
+							<li>
+									<a href="forum.php?mod=viewthread&tid=$thread[tid]&fromguid=hot&{if $_GET['archiveid']}archiveid={$_GET['archiveid']}&{/if}extra=$extra">
+										<!--{if !$thread['forumstick'] && $thread['closed'] > 1 && ($thread['isgroup'] == 1 || $thread['fid'] != $_G['fid'])}-->
+												<!--{eval $thread[tid]=$thread[closed];}-->
+										<!--{/if}-->
+											<span class="num"><i class="fa fa-comment-o fa-1x"></i>&nbsp;{$thread[replies]}&nbsp;&nbsp;&nbsp;<i class="fa fa-eye fa-1x"></i>&nbsp;{$thread[views]}</span>
+
+
+					<!--{if $thread['digest'] > 0}-->
+						<img src="./template/strong_ios/images/s_jinghua.png">
+					<!--{/if}-->
+					<!--{if in_array($thread['displayorder'], array(1, 2, 3, 4))}-->
+						<img src="./template/strong_ios/images/icon_top.png">
+					<!--{/if}-->
+					<!--{if $thread['attachment'] == 2 && $_G['setting']['mobile']['mobilesimpletype'] == 0}-->
+						<img src="./template/strong_ios/images/icon_tu.png">
+					<!--{/if}-->
+					<!--{if $thread['special'] == 1}-->
+						<img src="./template/strong_ios/images/pollsmall.png"  />
+					<!--{elseif $thread['special'] == 2}-->
+						<img src="./template/strong_ios/images/tradesmall.png"  />
+					<!--{elseif $thread['special'] == 3}-->
+						<img src="./template/strong_ios/images/rewardsmall.png"  />
+					<!--{elseif $thread['special'] == 4}-->
+						<img src="./template/strong_ios/images/activitysmall.png"  />
+					<!--{elseif $thread['special'] == 5}-->
+						<img src="./template/strong_ios/images/debatesmall.png" />
+
+					<!--{/if}-->
+
+ 					{$thread[subject]}
+					<span class="by">$thread[author]</span>
+									</a>
+							</li>
+		<!--{/loop}-->
+	<!--{else}-->
+		<li>{lang no_related_posts}</li>
+	<!--{/if}-->
+	</ul>
+	$multi
+</div>
+</div>
+<!-- main threadlist end -->
+<!--{eval $nofooter = true;}-->
+<!--{template common/footer}-->

@@ -1,0 +1,24 @@
+<!--{if $value[msgfromid] != $_G['uid']}-->
+
+
+<div class="reply_pml">
+		<div class="dialog_l">
+			<div class="dialog_t">$value[message]</div>
+			<div class="date"><!--{date($value[dateline], 'u')}--></div>
+			<div class="pm_shjx"></div>
+		</div>
+		<div class="author">$value[author]</div>
+</div>
+<!--{else}-->
+<div class="reply_pmr">
+		<div class="dialog_r">
+			<div class="dialog_t"> $value[message]</div>
+			<div class="date"><!--{date($value[dateline], 'u')}--></div>
+			<div class="pm_shjx"></div>
+		</div>
+
+		<div class="author">$value[author]</div>
+
+
+</div>
+<!--{/if}-->

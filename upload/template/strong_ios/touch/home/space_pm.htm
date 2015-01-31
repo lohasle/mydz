@@ -1,0 +1,94 @@
+<!--{eval $_G['home_tpl_titles'] = array('{lang pm}');}-->
+<!--{template common/header}-->
+
+<!--{if in_array($filter, array('privatepm')) || in_array($_GET[subop], array('view'))}-->
+
+	<!--{if in_array($filter, array('privatepm'))}-->
+<div  class="s_dh">
+		<div class="s_z s_fl  s_w50"><a href="home.php?mod=space&uid={$_G[uid]}&do=profile&mycenter=1" class=" fa fa-chevron-left fa-2x "></a></div>
+     	<div class="s_z s_fr  s_w50"><a href="home.php?mod=spacecp&ac=pm" style="font-size: 2em;"  class="fa fa-edit  fa-2x"></a></div>
+     	<div class="s_z s_tac " ><a href="javascript:;"  class="colf">{lang pm_center}</a></div>
+
+</div>
+<div id="wrapper">
+
+	<!-- main pmlist start -->
+	<div class="pmbox">
+		<ul>
+			<!--{loop $list $key $value}-->
+			<li>
+			<div class="avatar_img"><img style="height:48px;width:48px;" src="<!--{if $value[pmtype] == 2}-->{STATICURL}image/common/grouppm.png<!--{else}--><!--{avatar($value[touid] ? $value[touid] : ($value[lastauthorid] ? $value[lastauthorid] : $value[authorid]), small, true)}--><!--{/if}-->" /></div>
+				<a href="{if $value[touid]}home.php?mod=space&do=pm&subop=view&touid=$value[touid]{else}home.php?mod=space&do=pm&subop=view&plid={$value['plid']}&type=1{/if}">
+
+
+						<h5 class="name">
+							<!--{if $value[touid]}-->
+								{$value[tousername]}
+							<!--{elseif $value['pmtype'] == 2}-->
+								$value['firstauthor']
+							<!--{/if}-->
+							<!--{if $value[new]}--><span class="num">new</span><!--{/if}-->
+							<span class="time"><!--{date($value[dateline], 'u')}--></span>
+						</h5>
+
+					<p class="miaoshu"><!--{if $value['pmtype'] == 2}-->$value[message]</div><!--{else}-->$value[message]<!--{/if}--></p>
+
+				</a>
+			</li>
+			<!--{/loop}-->
+		</ul>
+	</div>
+	<!-- main pmlist end -->
+
+	<!--{elseif in_array($_GET[subop], array('view'))}-->
+
+	<!-- header start -->
+<div  class="s_dh">
+		<div class="s_z s_fl  s_w50"><a href="home.php?mod=space&do=pm" class=" fa fa-chevron-left fa-2x "></a></div>
+     	<div class="s_z s_fr  s_w50"><a href="javascript:;"  class="fa  fa-2x"></a></div>
+     	<div class="s_z s_tac " ><a href="javascript:;" class="colf" >{lang viewmypm}</a></div>
+
+</div>
+<div id="wrapper">
+
+	<!-- header end -->
+	<!-- main viewmsg_box start -->
+	<div class="wp">
+		<div class="msgbox ">
+			<!--{if !$list}-->
+				{lang no_corresponding_pm}
+			<!--{else}-->
+				<!--{loop $list $key $value}-->
+					<!--{subtemplate home/space_pm_node}-->
+				<!--{/loop}-->
+				<div style="width:100%; float:left;">$multi</div>
+			<!--{/if}-->
+		</div>
+		<!--{if $list}-->
+            <form id="pmform" class="pmform" name="pmform" method="post" action="home.php?mod=spacecp&ac=pm&op=send&pmid=$pmid&daterange=$daterange&pmsubmit=yes&mobile=2" >
+			<input type="hidden" name="formhash" value="{FORMHASH}" />
+			<!--{if !$touid}-->
+			<input type="hidden" name="plid" value="$plid" />
+			<!--{else}-->
+			<input type="hidden" name="touid" value="$touid" />
+			<!--{/if}-->
+			<div class="pm_replyk">
+				<div class="reply_text"><input type="text" value="" class="reply_ts" autocomplete="off" id="replymessage" name="message"></div>
+				<div class="reply_submit"><input type="button" name="pmsubmit" id="pmsubmit" class="formdialog reply_ss" value="{lang reply}" /></div>
+			</div>
+            </form>
+
+		<!--{/if}-->
+	</div>
+	<!-- main viewmsg_box end -->
+
+	<!--{/if}-->
+
+<!--{else}-->
+	<div class="bm_c">
+		{lang user_mobile_pm_error}
+	</div>
+<!--{/if}-->
+</div>
+<!--{eval $nofooter = true;}-->
+<!--{template common/footer}-->

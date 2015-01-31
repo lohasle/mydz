@@ -1,0 +1,38 @@
+<!--{template common/header}-->
+<div  class="s_dh">
+
+     	<div class="s_g">
+     		<ul>
+     			<li  class="{if $_GET['view'] == 'hot'}s_gli_l{else}s_gli_r{/if}"><a href="forum.php?mod=guide&view=hot">{echo $lang['retie'];}</a></li>
+     			<li class="{if $_GET['view'] == 'newthread'}s_gli_l{else}s_gli_r{/if}"><a href="forum.php?mod=guide&view=newthread">{echo $lang['newstie'];}</a></li>
+     		</ul>
+		</div>
+</div>
+<div id="wrapper" >
+<!-- main threadlist start -->
+<div class="threadlist">
+
+	<!--{loop $data $key $list}-->
+		<!--{subtemplate forum/guide_list_row}-->
+	<!--{/loop}-->
+
+</div>
+<!-- main threadlist end -->
+
+$multipage
+
+</div>
+<div class="s_footer">
+	<ul>
+    	<li  class="s_fcolor"><a href="forum.php"><i class="fa fa-home fa-15x "></i><em>{echo $lang['home'];}</em></a></li>
+        <li><a href="forum.php?forumlist=1" ><i class="fa  fa-comments fa-15x"></i><em>{echo $lang['forum'];}</em></a></li>
+        <li ><a href="home.php?mod=space&uid={$_G[uid]}&do=profile&mycenter=1"><i class="fa  fa-user fa-15x "></i><em>{echo $lang['geren'];}</em></a></li>
+        <li><a href="forum.php?mod=gengduo"><i class="fa fa-ellipsis-h fa-15x "></i><em>{echo $lang['gengduo'];}</em></a></li>
+    </ul>
+</div>
+<!--{template common/footer}-->
+
+
+
+
+

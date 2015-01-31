@@ -1,0 +1,116 @@
+<!--{if $_GET['mod'] == 'gengduo'}-->
+<!--{template common/header}-->
+<!--{template forum/gengduo}-->
+<!--{template common/footer}-->
+<!--{/if}-->
+<!--{template common/header}-->
+<div  class="s_dh">
+
+     	<div class="s_g">
+     		<ul>
+     			<li class="s_gli_l"><a href="home.php?mod=space&uid=1&do=favorite&view=me&type=forum">{lang favorite}</a></li>
+     			<li  class="s_gli_r"><a href="forum.php?mod=guide&view=hot">{echo $lang['guide'];}</a></li>
+     		</ul>
+		</div>
+</div>
+<div class="mengceng" style="display:none; opacity:0.5;" onclick="close_click()"></div>
+
+
+	<!-- search -->
+		<div class="sosoid" id="sosoid" style="display:none" >
+
+
+			<form id="searchform" method="post" action="search.php?mod=forum&mobile=2">
+			<input type="hidden" name="formhash" value="{FORMHASH}" />
+			<!--{if !empty($srchtype)}--><input type="hidden" name="srchtype" value="$srchtype" /><!--{/if}-->
+			<input type="hidden" name="searchsubmit" value="yes">
+			<div class="soso_text">
+			  <input type="text" class="soso_ts" name="srchtxt" id="scform_srchtxt" placeholder="{echo $lang['searchthread'];}">
+			</div>
+			<div class="soso_submit">
+			  <button type="submit" class="soso_ss" id="scform_submit"><i class="glyphicon glyphicon-search"></i>{echo $lang['search'];}</button>
+			</div>
+			</form>
+
+		</div>
+	<!--search end-->
+<script type="text/javascript">
+
+
+    function do_click(spkh) {
+  			$('.mengceng').css("height",$(document).height());
+			$('.mengceng').show();
+			$(spkh+'id').fadeToggle();
+        }
+
+   function close_click() {
+			$('.mengceng').hide();
+			$('#sosoid').hide();
+
+        };
+
+
+
+</script>
+<div id="wrapper">
+<div class="s_soso"><a href="javascript:;"  onclick="do_click('#soso')"><i class="fa fa-search fa-1x ">&nbsp;</i>{echo $lang['search'];}</a></div>
+
+<!--{hook/index_top_mobile}-->
+<!-- main forumlist start -->
+
+<div class="s_w100 s_foruml" id="wp" >
+
+	<!--{loop $catlist $key $cat}-->
+	<div class="bmw fl">
+		<div class="subforumshow bm_h cl" href="#sub_forum_$cat[fid]">
+			<h2>$cat[name]</h2>
+		</div>
+
+		<div id="sub_forum_$cat[fid]" class="sub_forum">
+
+			<ul>
+				<!--{loop $cat[forums] $forumid}-->
+				<!--{eval $forum=$forumlist[$forumid];}-->
+
+					<li>
+
+						<div class="sub_forumimg" >
+
+							<!--{if $forum[icon]}-->
+									$forum[icon]
+								<!--{else}-->
+									<a href="forum.php?mod=forumdisplay&fid={$forum['fid']}&mobile=2">
+									<img src="./template/strong_ios/images/tb.png" alt="$forum[name]" /></a>
+							<!--{/if}-->
+						</div>
+						<div class="sub_forumpost" >
+							<h4><a href="forum.php?mod=forumdisplay&fid={$forum['fid']}&mobile=2">{$forum[name]}</a>
+								<!--{if is_array($forum['lastpost'])}--><em>$forum[lastpost][dateline]</em><!--{/if}-->
+
+							</h4>
+
+							<span>{echo $lang['thread'];}&nbsp;<!--{echo dnumber($forum[threads])}-->/<!--{echo dnumber($forum[posts])}-->&nbsp;&nbsp;
+								<!--{if $forum[todayposts] != 0}--><em>{lang index_today}&nbsp;$forum[todayposts]</em><!--{/if}-->
+							</span>
+								</div>
+
+					</li>
+						<!--{/loop}-->
+			</ul>
+		</div>
+	</div>
+	<!--{/loop}-->
+</div>
+<!-- main forumlist end -->
+<!--{hook/index_middle_mobile}-->
+</div>
+
+<div class="s_footer">
+	<ul>
+    	<li><a href="forum.php"><i class="fa fa-home fa-15x "></i><em>{echo $lang['home'];}</em></a></li>
+        <li class="s_fcolor"><a href="forum.php?forumlist=1" ><i class="fa  fa-comments fa-15x"></i><em>{echo $lang['forum'];}</em></a></li>
+        <li ><a href="home.php?mod=space&uid={$_G[uid]}&do=profile&mycenter=1"><i class="fa  fa-user fa-15x "></i><em>{echo $lang['geren'];}</em></a></li>
+        <li><a href="forum.php?mod=gengduo"><i class="fa fa-ellipsis-h fa-15x "></i><em>{echo $lang['gengduo'];}</em></a></li>
+    </ul>
+</div>
+<!--{template common/footer}-->

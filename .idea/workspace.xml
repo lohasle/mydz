@@ -1,0 +1,1945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d80e03a-9203-4680-a003-3aef37ff1946" name="Default" comment="" />
+    <ignored path="Discuz_X3.2.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Discuz_X3.2" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="user.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/upload/uc_server/control/user.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.65762" vertical-offset="1414" max-vertical-offset="2603">
+              <caret line="239" column="148" selection-start-line="239" selection-start-column="148" selection-end-line="239" selection-end-column="148" />
+              <folding>
+                <element signature="n#__construct#0;n#usercontrol#0;n#!!top" expanded="false" />
+                <element signature="n#usercontrol#0;n#usercontrol#0;n#!!top" expanded="false" />
+                <element signature="n#onsynlogin#0;n#usercontrol#0;n#!!top" expanded="false" />
+                <element signature="e#711#1732#0#PHP" expanded="false" />
+                <element signature="e#743#1728#0#PHP" expanded="false" />
+                <element signature="e#822#1703#0#PHP" expanded="false" />
+                <element signature="e#877#1697#0#PHP" expanded="false" />
+                <element signature="e#1290#1690#0#PHP" expanded="false" />
+                <element signature="n#onsynlogout#0;n#usercontrol#0;n#!!top" expanded="false" />
+                <element signature="e#1801#2547#0#PHP" expanded="false" />
+                <element signature="e#1850#2524#0#PHP" expanded="false" />
+                <element signature="e#1904#2519#0#PHP" expanded="false" />
+                <element signature="e#2215#2513#0#PHP" expanded="false" />
+                <element signature="n#onregister#0;n#usercontrol#0;n#!!top" expanded="false" />
+                <element signature="e#2845#2923#0#PHP" expanded="false" />
+                <element signature="e#2926#2998#0#PHP" expanded="false" />
+                <element signature="e#3431#3541#0#PHP" expanded="false" />
+                <element signature="n#onlogin#0;n#usercontrol#0;n#!!top" expanded="false" />
+                <element signature="e#4123#4350#0#PHP" expanded="false" />
+                <element signature="e#4199#4280#0#PHP" expanded="false" />
+                <element signature="e#4281#4350#0#PHP" expanded="false" />
+                <element signature="e#4437#4736#0#PHP" expanded="false" />
+                <element signature="e#4477#4560#0#PHP" expanded="false" />
+                <element signature="e#4561#4698#0#PHP" expanded="false" />
+                <element signature="e#4699#4736#0#PHP" expanded="false" />
+                <element signature="n#oncheck_email#0;n#usercontrol#0;n#!!top" expanded="false" />
+                <element signature="n#oncheck_username#0;n#usercontrol#0;n#!!top" expanded="false" />
+                <element signature="e#5133#5235#0#PHP" expanded="false" />
+                <element signature="e#5212#5235#0#PHP" expanded="false" />
+                <element signature="n#onget_user#0;n#usercontrol#0;n#!!top" expanded="false" />
+                <element signature="e#5330#5490#0#PHP" expanded="false" />
+                <element signature="e#5424#5490#0#PHP" expanded="false" />
+                <element signature="e#5493#5604#0#PHP" expanded="false" />
+                <element signature="e#5581#5604#0#PHP" expanded="false" />
+                <element signature="n#ongetprotected#0;n#usercontrol#0;n#!!top" expanded="false" />
+                <element signature="n#ondelete#0;n#usercontrol#0;n#!!top" expanded="false" />
+                <element signature="n#ondeleteavatar#0;n#usercontrol#0;n#!!top" expanded="false" />
+                <element signature="n#onaddprotected#0;n#usercontrol#0;n#!!top" expanded="false" />
+                <element signature="e#6239#6536#0#PHP" expanded="false" />
+                <element signature="n#ondeleteprotected#0;n#usercontrol#0;n#!!top" expanded="false" />
+                <element signature="e#6741#6895#0#PHP" expanded="false" />
+                <element signature="n#onmerge_remove#0;n#usercontrol#0;n#!!top" expanded="false" />
+                <element signature="e#8246#8532#0#PHP" expanded="false" />
+                <element signature="e#8339#8436#0#PHP" expanded="false" />
+                <element signature="e#8437#8532#0#PHP" expanded="false" />
+                <element signature="n#_check_email#0;n#usercontrol#0;n#!!top" expanded="false" />
+                <element signature="e#8600#8940#0#PHP" expanded="false" />
+                <element signature="e#8692#8787#0#PHP" expanded="false" />
+                <element signature="e#8788#8916#0#PHP" expanded="false" />
+                <element signature="e#8917#8940#0#PHP" expanded="false" />
+                <element signature="e#9286#9666#0#PHP" expanded="false" />
+                <element signature="n#onuploadavatar#0;n#usercontrol#0;n#!!top" expanded="false" />
+                <element signature="e#9975#10010#0#PHP" expanded="false" />
+                <element signature="e#10013#10063#0#PHP" expanded="false" />
+                <element signature="e#10154#10255#0#PHP" expanded="false" />
+                <element signature="e#10492#10898#0#PHP" expanded="false" />
+                <element signature="e#10732#10824#0#PHP" expanded="false" />
+                <element signature="e#10829#10898#0#PHP" expanded="false" />
+                <element signature="n#onrectavatar#0;n#usercontrol#0;n#!!top" expanded="false" />
+                <element signature="e#11273#11356#0#PHP" expanded="false" />
+                <element signature="e#11392#11489#0#PHP" expanded="false" />
+                <element signature="e#12034#12152#0#PHP" expanded="false" />
+                <element signature="e#12573#12889#0#PHP" expanded="false" />
+                <element signature="e#12969#13134#0#PHP" expanded="false" />
+                <element signature="e#13056#13134#0#PHP" expanded="false" />
+                <element signature="n#flashdata_decode#0;n#usercontrol#0;n#!!top" expanded="false" />
+                <element signature="e#13205#13376#0#PHP" expanded="false" />
+                <marker date="1422702966168" expanded="true" signature="5683:5759" placeholder="SELECT uid,u..UC_DBTABLEPREprotectedmembers..." />
+                <marker date="1422702966168" expanded="true" signature="6797:6888" placeholder="DELETE FROM ..." />
+                <marker date="1422702966168" expanded="true" signature="7356:7463" placeholder="DELETE FROM ..." />
+                <marker date="1422702966168" expanded="true" signature="8021:8125" placeholder="DELETE FROM ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="note.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upload/uc_server/model/note.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.785714" vertical-offset="399" max-vertical-offset="4180">
+              <caret line="36" column="23" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="23" />
+              <folding>
+                <marker date="1409800958000" expanded="true" signature="1521:1568" placeholder="SELECT COUNT..UC_DBTABLEPREnotelist..." />
+                <marker date="1409800958000" expanded="true" signature="1806:1894" placeholder="SELECT * FRO..UC_DBTABLEPREnotelist..." />
+                <marker date="1409800958000" expanded="true" signature="2303:2363" placeholder="DELETE FROM ..." />
+                <marker date="1409800958000" expanded="true" signature="3083:3201" placeholder="INSERT INTO ..." />
+                <marker date="1409800958000" expanded="true" signature="6235:6329" placeholder="SELECT * FRO..UC_DBTABLEPREnotelist..." />
+                <marker date="1409800958000" expanded="true" signature="6419:6473" placeholder="DELETE FROM ..." />
+                <marker date="1409800958000" expanded="true" signature="6978:7040" placeholder="SELECT * FRO..UC_DBTABLEPREnotelist..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upload/uc_server/model/user.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.8965516" vertical-offset="1311" max-vertical-offset="4845">
+              <caret line="92" column="24" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="24" />
+              <folding>
+                <marker date="1422701024312" expanded="true" signature="458:513" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
+                <marker date="1422701024312" expanded="true" signature="613:678" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
+                <marker date="1422701024312" expanded="true" signature="772:831" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
+                <marker date="1422701024312" expanded="true" signature="1659:1778" placeholder="SELECT count..UC_DBTABLEPREmergemembers..." />
+                <marker date="1422701024312" expanded="true" signature="2619:2691" placeholder="SELECT usern..UC_DBTABLEPREmembers..." />
+                <marker date="1422701024312" expanded="true" signature="2803:2865" placeholder="SELECT usern..UC_DBTABLEPREmembers..." />
+                <marker date="1422701024312" expanded="true" signature="3946:4011" placeholder="SELECT email..UC_DBTABLEPREmembers..." />
+                <marker date="1422701024312" expanded="true" signature="4729:4899" placeholder="INSERT INTO ..." />
+                <marker date="1422701024312" expanded="true" signature="4956:5012" placeholder="INSERT INTO ..." />
+                <marker date="1422701024312" expanded="true" signature="5176:5269" placeholder="SELECT usern..UC_DBTABLEPREmembers..." />
+                <marker date="1422701024312" expanded="true" signature="5338:5417" placeholder="SELECT COUNT..UC_DBTABLEPREprotectedmembers..." />
+                <marker date="1422701024312" expanded="true" signature="6290:6360" placeholder="SELECT uid F..UC_DBTABLEPREprotectedmembers..." />
+                <marker date="1422701024312" expanded="true" signature="6551:6607" placeholder="DELETE FROM ..." />
+                <marker date="1422701024312" expanded="true" signature="6632:6693" placeholder="DELETE FROM ..." />
+                <marker date="1422701024312" expanded="true" signature="7809:7855" placeholder="SELECT COUNT..UC_DBTABLEPREmembers..." />
+                <marker date="1422701024312" expanded="true" signature="8036:8097" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
+                <marker date="1422701024312" expanded="true" signature="8296:8366" placeholder="SELECT uid F..UC_DBTABLEPREmembers..." />
+                <marker date="1422701024312" expanded="true" signature="8563:8662" placeholder="SELECT uid, ..UC_DBTABLEPREmembers..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upload/uc_client/model/user.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.75" vertical-offset="49" max-vertical-offset="4427">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <marker date="1409800958000" expanded="true" signature="458:513" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
+                <marker date="1409800958000" expanded="true" signature="613:678" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
+                <marker date="1409800958000" expanded="true" signature="772:831" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
+                <marker date="1409800958000" expanded="true" signature="1659:1778" placeholder="SELECT count..UC_DBTABLEPREmergemembers..." />
+                <marker date="1409800958000" expanded="true" signature="2619:2691" placeholder="SELECT usern..UC_DBTABLEPREmembers..." />
+                <marker date="1409800958000" expanded="true" signature="3611:3676" placeholder="SELECT email..UC_DBTABLEPREmembers..." />
+                <marker date="1409800958000" expanded="true" signature="4394:4564" placeholder="INSERT INTO ..." />
+                <marker date="1409800958000" expanded="true" signature="4621:4677" placeholder="INSERT INTO ..." />
+                <marker date="1409800958000" expanded="true" signature="4841:4934" placeholder="SELECT usern..UC_DBTABLEPREmembers..." />
+                <marker date="1409800958000" expanded="true" signature="5003:5082" placeholder="SELECT COUNT..UC_DBTABLEPREprotectedmembers..." />
+                <marker date="1409800958000" expanded="true" signature="5955:6025" placeholder="SELECT uid F..UC_DBTABLEPREprotectedmembers..." />
+                <marker date="1409800958000" expanded="true" signature="6216:6272" placeholder="DELETE FROM ..." />
+                <marker date="1409800958000" expanded="true" signature="6297:6358" placeholder="DELETE FROM ..." />
+                <marker date="1409800958000" expanded="true" signature="6622:6668" placeholder="SELECT COUNT..UC_DBTABLEPREmembers..." />
+                <marker date="1409800958000" expanded="true" signature="6849:6910" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
+                <marker date="1409800958000" expanded="true" signature="7111:7181" placeholder="SELECT uid F..UC_DBTABLEPREmembers..." />
+                <marker date="1409800958000" expanded="true" signature="7378:7477" placeholder="SELECT uid, ..UC_DBTABLEPREmembers..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upload/uc_server/control/admin/user.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.071428" vertical-offset="876" max-vertical-offset="2071">
+              <caret line="277" column="139" selection-start-line="276" selection-start-column="16" selection-end-line="277" selection-end-column="139" />
+              <folding>
+                <element signature="n#__construct#0;n#control#0;n#!!top" expanded="false" />
+                <element signature="n#control#0;n#control#0;n#!!top" expanded="false" />
+                <element signature="e#840#1026#0#PHP" expanded="false" />
+                <element signature="e#899#1022#0#PHP" expanded="false" />
+                <element signature="n#onlogin#0;n#control#0;n#!!top" expanded="false" />
+                <element signature="e#1340#1421#0#PHP" expanded="false" />
+                <element signature="e#1554#4600#0#PHP" expanded="false" />
+                <element signature="e#1700#4596#0#PHP" expanded="false" />
+                <element signature="e#1736#1998#0#PHP" expanded="false" />
+                <element signature="e#1845#1998#0#PHP" expanded="false" />
+                <element signature="e#2004#4596#0#PHP" expanded="false" />
+                <element signature="e#2295#4591#0#PHP" expanded="false" />
+                <element signature="e#2401#4591#0#PHP" expanded="false" />
+                <element signature="e#2491#3411#0#PHP" expanded="false" />
+                <element signature="e#2633#2851#0#PHP" expanded="false" />
+                <element signature="e#2790#2851#0#PHP" expanded="false" />
+                <element signature="e#2859#3411#0#PHP" expanded="false" />
+                <element signature="e#3064#3404#0#PHP" expanded="false" />
+                <element signature="e#3151#3328#0#PHP" expanded="false" />
+                <element signature="e#3267#3328#0#PHP" expanded="false" />
+                <element signature="e#3337#3404#0#PHP" expanded="false" />
+                <element signature="e#3418#4585#0#PHP" expanded="false" />
+                <element signature="e#3611#3883#0#PHP" expanded="false" />
+                <element signature="e#3763#3883#0#PHP" expanded="false" />
+                <element signature="e#3891#4585#0#PHP" expanded="false" />
+                <element signature="e#3904#4112#0#PHP" expanded="false" />
+                <element signature="e#4120#4578#0#PHP" expanded="false" />
+                <element signature="e#4429#4578#0#PHP" expanded="false" />
+                <element signature="n#onlogout#0;n#control#0;n#!!top" expanded="false" />
+                <element signature="n#onadd#0;n#control#0;n#!!top" expanded="false" />
+                <element signature="e#5154#5202#0#PHP" expanded="false" />
+                <element signature="e#5323#5708#0#PHP" expanded="false" />
+                <element signature="e#5382#5704#0#PHP" expanded="false" />
+                <element signature="e#5490#5598#0#PHP" expanded="false" />
+                <element signature="e#5599#5704#0#PHP" expanded="false" />
+                <element signature="e#5711#6086#0#PHP" expanded="false" />
+                <element signature="e#5764#6082#0#PHP" expanded="false" />
+                <element signature="e#5875#5982#0#PHP" expanded="false" />
+                <element signature="e#5983#6082#0#PHP" expanded="false" />
+                <element signature="n#onls#0;n#control#0;n#!!top" expanded="false" />
+                <element signature="e#6310#6774#0#PHP" expanded="false" />
+                <element signature="e#6514#6770#0#PHP" expanded="false" />
+                <element signature="e#6575#6765#0#PHP" expanded="false" />
+                <element signature="e#6820#6993#0#PHP" expanded="false" />
+                <element signature="e#7297#7412#0#PHP" expanded="false" />
+                <element signature="e#7415#7515#0#PHP" expanded="false" />
+                <element signature="e#7518#7628#0#PHP" expanded="false" />
+                <element signature="e#7631#7786#0#PHP" expanded="false" />
+                <element signature="e#7789#7936#0#PHP" expanded="false" />
+                <element signature="e#7939#8049#0#PHP" expanded="false" />
+                <element signature="e#8225#8378#0#PHP" expanded="false" />
+                <element signature="n#_check_username#0;n#control#0;n#!!top" expanded="false" />
+                <element signature="e#11230#11559#0#PHP" expanded="false" />
+                <element signature="e#11322#11417#0#PHP" expanded="false" />
+                <element signature="e#11418#11535#0#PHP" expanded="false" />
+                <element signature="e#11536#11559#0#PHP" expanded="false" />
+                <element signature="e#11607#11746#0#PHP" expanded="false" />
+                <element signature="e#11636#11742#0#PHP" expanded="false" />
+                <marker date="1422695526210" expanded="true" signature="1623:1693" placeholder="SELECT * FRO..UC_DBTABLEPREfailedlogins..." />
+                <marker date="1422695526210" expanded="true" signature="1917:1989" placeholder="DELETE FROM ..." />
+                <marker date="1422695526210" expanded="true" signature="2905:3054" placeholder="SELECT a.uid..UC_DBTABLEPREadmins..." />
+                <marker date="1422695526210" expanded="true" signature="4215:4287" placeholder="DELETE FROM ..." />
+                <marker date="1422695526210" expanded="true" signature="4316:4417" placeholder="INSERT INTO ..." />
+                <marker date="1422695526210" expanded="true" signature="9006:9079" placeholder="SELECT COUNT..UC_DBTABLEPREprotectedmembers..." />
+                <marker date="1422695526210" expanded="true" signature="10408:10463" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upload/uc_client/client.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.142857" vertical-offset="6810" max-vertical-offset="11039">
+              <caret line="371" column="78" selection-start-line="371" selection-start-column="78" selection-end-line="371" selection-end-column="78" />
+              <folding>
+                <marker date="1409800958000" expanded="true" signature="18955:19599" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feed.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upload/uc_server/control/feed.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="26.464285" vertical-offset="741" max-vertical-offset="1995">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1409800958000" expanded="true" signature="1473:2036" placeholder="INSERT INTO ..." />
+                <marker date="1409800958000" expanded="true" signature="2214:2288" placeholder="DELETE FROM ..." />
+                <marker date="1409800958000" expanded="true" signature="2453:2517" placeholder="SELECT * FRO..UC_DBTABLEPREfeeds..." />
+                <marker date="1409800958000" expanded="true" signature="2998:3074" placeholder="DELETE FROM ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="domain.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upload/uc_server/control/domain.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.857142" vertical-offset="0" max-vertical-offset="551">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="credit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upload/uc_server/control/credit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.25" vertical-offset="0" max-vertical-offset="931">
+              <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upload/uc_server/control/app.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="72.89286" vertical-offset="2041" max-vertical-offset="2622">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1409800958000" expanded="true" signature="1335:1418" placeholder="SELECT * FRO..UC_DBTABLEPREapplications..." />
+                <marker date="1409800958000" expanded="true" signature="1567:1915" placeholder="INSERT INTO ..." />
+                <marker date="1409800958000" expanded="true" signature="2426:2520" placeholder="SELECT appid..UC_DBTABLEPREapplications..." />
+                <marker date="1409800958000" expanded="true" signature="3165:3220" placeholder="SELECT DISTI..UC_DBTABLEPREapplications..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/upload/source/plugin/appkan/discuz_plugin_cloudcaptcha.xml" />
+        <option value="$PROJECT_DIR$/upload/source/plugin/appkan/discuz_plugin_myapp.xml" />
+        <option value="$PROJECT_DIR$/upload/source/function/function_cloudaddons.php" />
+        <option value="$PROJECT_DIR$/upload/source/plugin/appkan/discuz_plugin_appkan.xml" />
+        <option value="$PROJECT_DIR$/upload/source/module/member/member_logging.php" />
+        <option value="D:/临时/tomcat/index.html" />
+        <option value="$PROJECT_DIR$/upload/uc_client/control/user.php" />
+        <option value="$PROJECT_DIR$/upload/uc_server/control/admin/user.php" />
+        <option value="$PROJECT_DIR$/upload/uc_server/control/pm_client.php" />
+        <option value="$PROJECT_DIR$/upload/uc_server/model/user.php" />
+        <option value="$PROJECT_DIR$/upload/uc_server/control/user.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utility" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uc_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uc_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uc_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="control" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uc_client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uc_client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/workspace/weizy_dp" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\Discuz_X3.2\upload\source\plugin\appkan" />
+      <recent name="C:\wamp\www\Discuz_X3.2\upload\source\plugin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\Discuz_X3.2\upload\source\plugin\appkan" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d80e03a-9203-4680-a003-3aef37ff1946" name="Default" comment="" />
+      <created>1419837691227</created>
+      <option name="number" value="Default" />
+      <updated>1419837691227</updated>
+      <workItem from="1419837692096" duration="1835000" />
+      <workItem from="1420359816846" duration="8527000" />
+      <workItem from="1420510587120" duration="4011000" />
+      <workItem from="1420688297887" duration="2437000" />
+      <workItem from="1421029656337" duration="11171000" />
+      <workItem from="1421375722304" duration="2530000" />
+      <workItem from="1421736780412" duration="4424000" />
+      <workItem from="1422692033810" duration="8387000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="43322000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.49932885" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22281879" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.50067115" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.49932885" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.50067115" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/upload/api/javascript/javascript.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="688">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/api/javascript/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="716">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="2907">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <element signature="e#187#4492#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/source/plugin/mobile/api/1/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="798">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utility/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="9120" max-vertical-offset="43852">
+          <caret line="513" column="20" selection-start-line="513" selection-start-column="20" selection-end-line="513" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/source/class/class_member.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="722" max-vertical-offset="16226">
+          <caret line="123" column="34" selection-start-line="123" selection-start-column="34" selection-end-line="123" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/source/module/member/member_logging.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="570">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/临时/tomcat/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.25" vertical-offset="4246" max-vertical-offset="11267">
+          <caret line="243" column="0" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/api/dbbak.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="14.928572" vertical-offset="741" max-vertical-offset="13851">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="716">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/model/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="10.857142" vertical-offset="855" max-vertical-offset="1729">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/model/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9063">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/install/uc.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8056">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/data/config.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8965516" vertical-offset="0" max-vertical-offset="456">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_client/control/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_client/control/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.071429" vertical-offset="114" max-vertical-offset="1311">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="n#__construct#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="n#usercontrol#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="n#onsynlogin#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="e#772#1358#0#PHP" expanded="false" />
+            <element signature="e#804#1354#0#PHP" expanded="false" />
+            <element signature="e#883#1329#0#PHP" expanded="false" />
+            <element signature="e#938#1323#0#PHP" expanded="false" />
+            <element signature="n#onsynlogout#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="e#1427#1841#0#PHP" expanded="false" />
+            <element signature="e#1476#1818#0#PHP" expanded="false" />
+            <element signature="e#1530#1813#0#PHP" expanded="false" />
+            <element signature="n#onregister#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="e#2139#2217#0#PHP" expanded="false" />
+            <element signature="e#2220#2292#0#PHP" expanded="false" />
+            <element signature="n#onedit#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="e#2724#2834#0#PHP" expanded="false" />
+            <element signature="e#2947#3110#0#PHP" expanded="false" />
+            <element signature="n#onlogin#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="e#3418#3645#0#PHP" expanded="false" />
+            <element signature="e#3494#3575#0#PHP" expanded="false" />
+            <element signature="e#3576#3645#0#PHP" expanded="false" />
+            <element signature="e#3732#4031#0#PHP" expanded="false" />
+            <element signature="e#3772#3855#0#PHP" expanded="false" />
+            <element signature="e#3856#3993#0#PHP" expanded="false" />
+            <element signature="e#3994#4031#0#PHP" expanded="false" />
+            <element signature="n#oncheck_email#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="n#oncheck_username#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="e#4428#4530#0#PHP" expanded="false" />
+            <element signature="e#4507#4530#0#PHP" expanded="false" />
+            <element signature="n#onget_user#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="e#4625#4785#0#PHP" expanded="false" />
+            <element signature="e#4719#4785#0#PHP" expanded="false" />
+            <element signature="e#4788#4899#0#PHP" expanded="false" />
+            <element signature="e#4876#4899#0#PHP" expanded="false" />
+            <element signature="n#ongetprotected#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="n#ondelete#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="n#onaddprotected#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="e#5406#5703#0#PHP" expanded="false" />
+            <element signature="n#ondeleteprotected#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="e#5908#6062#0#PHP" expanded="false" />
+            <element signature="n#onmerge#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="e#6348#6429#0#PHP" expanded="false" />
+            <element signature="n#onmerge_remove#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="n#_check_username#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="e#6990#7276#0#PHP" expanded="false" />
+            <element signature="e#7083#7180#0#PHP" expanded="false" />
+            <element signature="e#7181#7276#0#PHP" expanded="false" />
+            <element signature="n#_check_email#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="e#7344#7423#0#PHP" expanded="false" />
+            <element signature="e#7426#7766#0#PHP" expanded="false" />
+            <element signature="e#7518#7613#0#PHP" expanded="false" />
+            <element signature="e#7614#7742#0#PHP" expanded="false" />
+            <element signature="e#7743#7766#0#PHP" expanded="false" />
+            <element signature="n#onuploadavatar#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="n#onrectavatar#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="n#flashdata_decode#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <marker date="1422694416416" expanded="false" signature="-1:-1" placeholder="SELECT uid,u..UC_DBTABLEPREprotectedmembers..." />
+            <marker date="1422694416416" expanded="false" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1422694416416" expanded="false" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1422694416416" expanded="false" signature="-1:-1" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/api/uc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.107143" vertical-offset="285" max-vertical-offset="1558">
+          <caret line="29" column="34" selection-start-line="14" selection-start-column="6" selection-end-line="29" selection-end-column="34" />
+          <folding>
+            <element signature="e#896#1824#0#PHP" expanded="false" />
+            <element signature="e#1168#1242#0#PHP" expanded="false" />
+            <element signature="e#1244#1291#0#PHP" expanded="false" />
+            <element signature="e#1417#1679#0#PHP" expanded="false" />
+            <element signature="e#1442#1678#0#PHP" expanded="false" />
+            <element signature="e#1414#1806#0#PHP" expanded="false" />
+            <element signature="e#1770#1806#0#PHP" expanded="false" />
+            <element signature="e#1809#1824#0#PHP" expanded="false" />
+            <element signature="n#_serialize#0;n#uc_note#0;n#!!top" expanded="false" />
+            <element signature="e#1964#2068#0#PHP" expanded="false" />
+            <element signature="n#uc_note#0;n#uc_note#0;n#!!top" expanded="false" />
+            <element signature="n#test#0;n#uc_note#0;n#!!top" expanded="false" />
+            <element signature="n#deleteuser#0;n#uc_note#0;n#!!top" expanded="false" />
+            <element signature="e#2254#2311#0#PHP" expanded="false" />
+            <element signature="n#renameuser#0;n#uc_note#0;n#!!top" expanded="false" />
+            <element signature="e#2636#2693#0#PHP" expanded="false" />
+            <element signature="e#2709#4875#0#PHP" expanded="false" />
+            <element signature="e#4880#5107#0#PHP" expanded="false" />
+            <element signature="e#5140#5323#0#PHP" expanded="false" />
+            <element signature="e#5178#5319#0#PHP" expanded="false" />
+            <element signature="e#5327#5482#0#PHP" expanded="false" />
+            <element signature="n#gettag#0;n#uc_note#0;n#!!top" expanded="false" />
+            <element signature="e#5564#5617#0#PHP" expanded="false" />
+            <element signature="n#synlogin#0;n#uc_note#0;n#!!top" expanded="false" />
+            <element signature="e#5732#5787#0#PHP" expanded="false" />
+            <element signature="e#5952#6086#0#PHP" expanded="false" />
+            <element signature="n#synlogout#0;n#uc_note#0;n#!!top" expanded="false" />
+            <element signature="e#6143#6199#0#PHP" expanded="false" />
+            <element signature="n#updatepw#0;n#uc_note#0;n#!!top" expanded="false" />
+            <element signature="e#6398#6453#0#PHP" expanded="false" />
+            <element signature="e#6546#6743#0#PHP" expanded="false" />
+            <element signature="e#6635#6743#0#PHP" expanded="false" />
+            <element signature="e#6746#6834#0#PHP" expanded="false" />
+            <element signature="n#updatebadwords#0;n#uc_note#0;n#!!top" expanded="false" />
+            <element signature="e#6926#6987#0#PHP" expanded="false" />
+            <element signature="e#7010#7168#0#PHP" expanded="false" />
+            <element signature="e#7035#7164#0#PHP" expanded="false" />
+            <element signature="n#updatehosts#0;n#uc_note#0;n#!!top" expanded="false" />
+            <element signature="e#7477#7535#0#PHP" expanded="false" />
+            <element signature="n#updateapps#0;n#uc_note#0;n#!!top" expanded="false" />
+            <element signature="e#7838#7895#0#PHP" expanded="false" />
+            <element signature="e#7915#8056#0#PHP" expanded="false" />
+            <element signature="e#8273#8845#0#PHP" expanded="false" />
+            <element signature="e#8349#8841#0#PHP" expanded="false" />
+            <element signature="e#8707#8836#0#PHP" expanded="false" />
+            <element signature="n#updateclient#0;n#uc_note#0;n#!!top" expanded="false" />
+            <element signature="e#8934#8993#0#PHP" expanded="false" />
+            <element signature="n#updatecredit#0;n#uc_note#0;n#!!top" expanded="false" />
+            <element signature="e#9304#9363#0#PHP" expanded="false" />
+            <element signature="e#9445#9504#0#PHP" expanded="false" />
+            <element signature="n#getcredit#0;n#uc_note#0;n#!!top" expanded="false" />
+            <element signature="e#9803#9859#0#PHP" expanded="false" />
+            <element signature="n#getcreditsettings#0;n#uc_note#0;n#!!top" expanded="false" />
+            <element signature="e#10081#10145#0#PHP" expanded="false" />
+            <element signature="e#10171#10317#0#PHP" expanded="false" />
+            <element signature="n#updatecreditsettings#0;n#uc_note#0;n#!!top" expanded="false" />
+            <element signature="e#10424#10491#0#PHP" expanded="false" />
+            <element signature="e#10523#11047#0#PHP" expanded="false" />
+            <element signature="e#10578#11043#0#PHP" expanded="false" />
+            <element signature="e#10607#11038#0#PHP" expanded="false" />
+            <element signature="e#10709#11031#0#PHP" expanded="false" />
+            <element signature="e#11068#11481#0#PHP" expanded="false" />
+            <element signature="e#11163#11270#0#PHP" expanded="false" />
+            <element signature="n#addfeed#0;n#uc_note#0;n#!!top" expanded="false" />
+            <element signature="e#11833#11887#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/admin/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.107143" vertical-offset="513" max-vertical-offset="1349">
+          <caret line="138" column="25" selection-start-line="138" selection-start-column="25" selection-end-line="138" selection-end-column="25" />
+          <folding>
+            <element signature="n#__construct#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="n#control#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="e#363#483#0#PHP" expanded="false" />
+            <element signature="n#onls#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="e#585#1001#0#PHP" expanded="false" />
+            <element signature="e#684#816#0#PHP" expanded="false" />
+            <element signature="n#onadd#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="e#1244#3687#0#PHP" expanded="false" />
+            <element signature="e#1441#1641#0#PHP" expanded="false" />
+            <element signature="e#1732#3687#0#PHP" expanded="false" />
+            <element signature="e#2327#2489#0#PHP" expanded="false" />
+            <element signature="e#2431#2484#0#PHP" expanded="false" />
+            <element signature="e#2549#2651#0#PHP" expanded="false" />
+            <element signature="e#2655#2778#0#PHP" expanded="false" />
+            <element signature="e#2890#3372#0#PHP" expanded="false" />
+            <element signature="e#2958#3372#0#PHP" expanded="false" />
+            <element signature="e#3036#3329#0#PHP" expanded="false" />
+            <element signature="n#onping#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="e#3862#4199#0#PHP" expanded="false" />
+            <element signature="e#4058#4199#0#PHP" expanded="false" />
+            <element signature="e#4202#4662#0#PHP" expanded="false" />
+            <element signature="e#4440#4662#0#PHP" expanded="false" />
+            <element signature="e#4790#7317#0#PHP" expanded="false" />
+            <element signature="e#5299#6061#0#PHP" expanded="false" />
+            <element signature="e#5405#6009#0#PHP" expanded="false" />
+            <element signature="e#5498#5623#0#PHP" expanded="false" />
+            <element signature="e#5794#5946#0#PHP" expanded="false" />
+            <element signature="e#5953#6009#0#PHP" expanded="false" />
+            <element signature="e#6015#6061#0#PHP" expanded="false" />
+            <element signature="e#6105#6258#0#PHP" expanded="false" />
+            <element signature="e#6125#6253#0#PHP" expanded="false" />
+            <element signature="e#6470#6632#0#PHP" expanded="false" />
+            <element signature="e#6574#6627#0#PHP" expanded="false" />
+            <element signature="e#6742#7069#0#PHP" expanded="false" />
+            <element signature="e#7452#7592#0#PHP" expanded="false" />
+            <element signature="e#7495#7588#0#PHP" expanded="false" />
+            <element signature="e#8602#8802#0#PHP" expanded="false" />
+            <element signature="n#_add_note_for_app#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="n#_format_notedata#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="e#9666#9789#0#PHP" expanded="false" />
+            <element signature="n#_realpath#0;n#control#0;n#!!top" expanded="false" />
+            <marker date="1409800958000" expanded="false" signature="-1:-1" placeholder="SELECT COUNT..UC_DBTABLEPREapplications..." />
+            <marker date="1409800958000" expanded="false" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1409800958000" expanded="false" signature="-1:-1" placeholder="SELECT appid..UC_DBTABLEPREapplications..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/admin/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.071429" vertical-offset="0" max-vertical-offset="456">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="n#__construct#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="n#control#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="e#385#509#0#PHP" expanded="false" />
+            <element signature="n#onls#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="e#607#2527#0#PHP" expanded="false" />
+            <element signature="e#854#2523#0#PHP" expanded="false" />
+            <element signature="e#979#2488#0#PHP" expanded="false" />
+            <element signature="e#1020#2488#0#PHP" expanded="false" />
+            <element signature="e#1690#2283#0#PHP" expanded="false" />
+            <element signature="e#2331#2482#0#PHP" expanded="false" />
+            <element signature="e#2449#2482#0#PHP" expanded="false" />
+            <element signature="e#2494#2523#0#PHP" expanded="false" />
+            <element signature="e#2531#3506#0#PHP" expanded="false" />
+            <element signature="e#2699#3502#0#PHP" expanded="false" />
+            <element signature="e#2808#3467#0#PHP" expanded="false" />
+            <element signature="e#2865#3467#0#PHP" expanded="false" />
+            <element signature="e#2877#3461#0#PHP" expanded="false" />
+            <element signature="e#2928#3461#0#PHP" expanded="false" />
+            <element signature="e#3473#3502#0#PHP" expanded="false" />
+            <element signature="e#3553#3718#0#PHP" expanded="false" />
+            <element signature="e#4148#4296#0#PHP" expanded="false" />
+            <element signature="e#4167#4292#0#PHP" expanded="false" />
+            <element signature="n#onedit#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="e#4550#5878#0#PHP" expanded="false" />
+            <element signature="e#5214#5754#0#PHP" expanded="false" />
+            <marker date="1409800958000" expanded="false" signature="-1:-1" placeholder="SELECT uid F..UC_DBTABLEPREmembers..." />
+            <marker date="1409800958000" expanded="false" signature="-1:-1" placeholder="SELECT uid F..UC_DBTABLEPREadmins..." />
+            <marker date="1409800958000" expanded="false" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1409800958000" expanded="false" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1409800958000" expanded="false" signature="-1:-1" placeholder="SELECT COUNT..UC_DBTABLEPREadmins..." />
+            <marker date="1409800958000" expanded="false" signature="-1:-1" placeholder="SELECT a.*,m..UC_DBTABLEPREadmins..." />
+            <marker date="1409800958000" expanded="false" signature="-1:-1" placeholder="SELECT * FRO..UC_DBTABLEPREadmins..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/admin/badword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.071429" vertical-offset="0" max-vertical-offset="456">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="n#__construct#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="n#control#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="e#364#488#0#PHP" expanded="false" />
+            <element signature="n#onls#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="e#765#894#0#PHP" expanded="false" />
+            <element signature="e#780#890#0#PHP" expanded="false" />
+            <element signature="e#912#1159#0#PHP" expanded="false" />
+            <element signature="e#1162#1314#0#PHP" expanded="false" />
+            <element signature="e#1317#1749#0#PHP" expanded="false" />
+            <element signature="e#1425#1503#0#PHP" expanded="false" />
+            <element signature="e#1596#1745#0#PHP" expanded="false" />
+            <element signature="e#1752#2037#0#PHP" expanded="false" />
+            <element signature="n#onexport#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="e#2510#2607#0#PHP" expanded="false" />
+            <element signature="e#2525#2603#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/admin/cache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.142858" vertical-offset="0" max-vertical-offset="494">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="n#__construct#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="n#control#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="e#362#484#0#PHP" expanded="false" />
+            <element signature="e#558#830#0#PHP" expanded="false" />
+            <element signature="e#628#716#0#PHP" expanded="false" />
+            <element signature="e#720#806#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/admin/credit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.321428" vertical-offset="171" max-vertical-offset="1045">
+          <caret line="198" column="30" selection-start-line="198" selection-start-column="30" selection-end-line="198" selection-end-column="30" />
+          <folding>
+            <element signature="n#__construct#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="n#control#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="e#363#487#0#PHP" expanded="false" />
+            <element signature="n#onls#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="e#1314#2558#0#PHP" expanded="false" />
+            <element signature="e#1368#1828#0#PHP" expanded="false" />
+            <element signature="e#1799#1828#0#PHP" expanded="false" />
+            <element signature="e#1999#2558#0#PHP" expanded="false" />
+            <element signature="e#2057#2388#0#PHP" expanded="false" />
+            <element signature="e#2085#2152#0#PHP" expanded="false" />
+            <element signature="e#2613#3206#0#PHP" expanded="false" />
+            <element signature="e#2648#3202#0#PHP" expanded="false" />
+            <element signature="e#3229#3657#0#PHP" expanded="false" />
+            <element signature="e#3254#3653#0#PHP" expanded="false" />
+            <element signature="e#3415#3570#0#PHP" expanded="false" />
+            <element signature="e#3445#3564#0#PHP" expanded="false" />
+            <element signature="e#4316#6049#0#PHP" expanded="false" />
+            <element signature="e#4567#4677#0#PHP" expanded="false" />
+            <element signature="e#4622#4677#0#PHP" expanded="false" />
+            <element signature="e#4681#6034#0#PHP" expanded="false" />
+            <element signature="e#4830#5161#0#PHP" expanded="false" />
+            <element signature="e#5013#5161#0#PHP" expanded="false" />
+            <element signature="e#5166#5525#0#PHP" expanded="false" />
+            <element signature="e#5191#5423#0#PHP" expanded="false" />
+            <element signature="e#5392#5423#0#PHP" expanded="false" />
+            <element signature="e#5430#5525#0#PHP" expanded="false" />
+            <element signature="e#5531#5814#0#PHP" expanded="false" />
+            <element signature="e#5932#6034#0#PHP" expanded="false" />
+            <element signature="e#6496#7533#0#PHP" expanded="false" />
+            <element signature="e#7555#7654#0#PHP" expanded="false" />
+            <element signature="e#7871#8116#0#PHP" expanded="false" />
+            <element signature="e#7916#8112#0#PHP" expanded="false" />
+            <element signature="e#8058#8112#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/admin/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="76.0" vertical-offset="2337" max-vertical-offset="6289">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="DROP TABLE I..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._table WHERE..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._table LIMIT..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/admin/domain.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="28.785715" vertical-offset="806" max-vertical-offset="1387">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/admin/feed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="10.678572" vertical-offset="299" max-vertical-offset="893">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/admin/frame.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="42.75" vertical-offset="1197" max-vertical-offset="3572">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..UC_DBTABLEPREmembers..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..UC_DBTABLEPREfriends..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..UC_DBTABLEPREapplications..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..UC_DBTABLEPREpm_messages_..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..UC_DBTABLEPREnotelist..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..UC_DBTABLEPREnotelist..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/admin/log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="21.535715" vertical-offset="603" max-vertical-offset="1197">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/admin/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="38.285713" vertical-offset="1072" max-vertical-offset="1653">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/admin/note.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.728055" vertical-offset="1585" max-vertical-offset="2166">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/admin/plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0151515" vertical-offset="603" max-vertical-offset="1197">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/admin/pm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.022375" vertical-offset="3580" max-vertical-offset="4161">
+          <caret line="101" column="42" selection-start-line="101" selection-start-column="42" selection-end-line="101" selection-end-column="42" />
+          <folding>
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..UC_DBTABLEPREpm_messages_..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..UC_DBTABLEPREpm_messages_..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..UC_DBTABLEPREpm_messages_..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..UC_DBTABLEPREpm_indexes..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..UC_DBTABLEPRE..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..UC_DBTABLEPRE..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..UC_DBTABLEPRE..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="SELECT uid F..UC_DBTABLEPREmembers..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="SELECT m.pli..UC_DBTABLEPREpm_members..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..UC_DBTABLEPREpm_messages_..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/admin/seccode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.15151516" vertical-offset="432" max-vertical-offset="1026">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/admin/setting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0464716" vertical-offset="141" max-vertical-offset="779">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="n#__construct#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="n#control#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="e#812#936#0#PHP" expanded="false" />
+            <element signature="n#onls#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="e#1028#2662#0#PHP" expanded="false" />
+            <element signature="e#1727#1949#0#PHP" expanded="false" />
+            <element signature="e#2723#2785#0#PHP" expanded="false" />
+            <element signature="n#updatecache#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="n#onregister#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="e#4449#4833#0#PHP" expanded="false" />
+            <element signature="e#4894#4956#0#PHP" expanded="false" />
+            <element signature="e#5616#5841#0#PHP" expanded="false" />
+            <element signature="e#5646#5749#0#PHP" expanded="false" />
+            <element signature="e#5902#5964#0#PHP" expanded="false" />
+            <element signature="e#5967#6064#0#PHP" expanded="false" />
+            <element signature="n#_add_note_for_setting#0;n#control#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/admin/ucfiles.md5">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2749196" vertical-offset="0" max-vertical-offset="2109">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/version.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.543771" vertical-offset="0" max-vertical-offset="594">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/tag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1919192" vertical-offset="0" max-vertical-offset="594">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="n#__construct#0;n#tagcontrol#0;n#!!top" expanded="false" />
+            <element signature="n#tagcontrol#0;n#tagcontrol#0;n#!!top" expanded="false" />
+            <element signature="n#ongettag#0;n#tagcontrol#0;n#!!top" expanded="false" />
+            <element signature="e#540#581#0#PHP" expanded="false" />
+            <element signature="e#628#725#0#PHP" expanded="false" />
+            <element signature="e#662#721#0#PHP" expanded="false" />
+            <element signature="e#780#1787#0#PHP" expanded="false" />
+            <element signature="e#822#1632#0#PHP" expanded="false" />
+            <element signature="e#968#1061#0#PHP" expanded="false" />
+            <element signature="e#1066#1627#0#PHP" expanded="false" />
+            <element signature="e#1116#1357#0#PHP" expanded="false" />
+            <element signature="e#1302#1357#0#PHP" expanded="false" />
+            <element signature="e#1405#1621#0#PHP" expanded="false" />
+            <element signature="e#1552#1614#0#PHP" expanded="false" />
+            <element signature="e#1689#1787#0#PHP" expanded="false" />
+            <element signature="e#1699#1783#0#PHP" expanded="false" />
+            <element signature="e#1790#1898#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/pm_client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.464286" vertical-offset="171" max-vertical-offset="874">
+          <caret line="263" column="25" selection-start-line="263" selection-start-column="25" selection-end-line="263" selection-end-column="25" />
+          <folding>
+            <element signature="n#__construct#0;n#pm_clientcontrol#0;n#!!top" expanded="false" />
+            <element signature="n#pm_clientcontrol#0;n#pm_clientcontrol#0;n#!!top" expanded="false" />
+            <element signature="e#365#431#0#PHP" expanded="false" />
+            <element signature="n#_auth#0;n#pm_clientcontrol#0;n#!!top" expanded="false" />
+            <element signature="e#556#1038#0#PHP" expanded="false" />
+            <element signature="e#731#1034#0#PHP" expanded="false" />
+            <element signature="e#943#1034#0#PHP" expanded="false" />
+            <element signature="n#onls#0;n#pm_clientcontrol#0;n#!!top" expanded="false" />
+            <element signature="e#1695#2582#0#PHP" expanded="false" />
+            <element signature="e#1917#2582#0#PHP" expanded="false" />
+            <element signature="e#2021#2204#0#PHP" expanded="false" />
+            <element signature="e#2039#2199#0#PHP" expanded="false" />
+            <element signature="n#onblackls#0;n#pm_clientcontrol#0;n#!!top" expanded="false" />
+            <element signature="e#2697#2772#0#PHP" expanded="false" />
+            <element signature="n#onsend#0;n#pm_clientcontrol#0;n#!!top" expanded="false" />
+            <element signature="e#3185#9524#0#PHP" expanded="false" />
+            <element signature="e#3678#3796#0#PHP" expanded="false" />
+            <element signature="e#3765#3796#0#PHP" expanded="false" />
+            <element signature="e#3801#4468#0#PHP" expanded="false" />
+            <element signature="e#3825#4241#0#PHP" expanded="false" />
+            <element signature="e#4247#4468#0#PHP" expanded="false" />
+            <element signature="e#4473#4758#0#PHP" expanded="false" />
+            <element signature="e#5641#9524#0#PHP" expanded="false" />
+            <element signature="e#5652#6171#0#PHP" expanded="false" />
+            <element signature="e#6046#6166#0#PHP" expanded="false" />
+            <element signature="e#6516#6804#0#PHP" expanded="false" />
+            <element signature="e#6662#6804#0#PHP" expanded="false" />
+            <element signature="e#6673#6799#0#PHP" expanded="false" />
+            <element signature="e#6808#7082#0#PHP" expanded="false" />
+            <element signature="e#6869#6947#0#PHP" expanded="false" />
+            <element signature="e#6952#7077#0#PHP" expanded="false" />
+            <element signature="e#6998#7071#0#PHP" expanded="false" />
+            <element signature="e#7086#7157#0#PHP" expanded="false" />
+            <element signature="e#7229#7480#0#PHP" expanded="false" />
+            <element signature="e#7272#7475#0#PHP" expanded="false" />
+            <element signature="e#7484#7756#0#PHP" expanded="false" />
+            <element signature="e#7531#7751#0#PHP" expanded="false" />
+            <element signature="e#7760#8014#0#PHP" expanded="false" />
+            <element signature="e#7801#8009#0#PHP" expanded="false" />
+            <element signature="e#8018#8327#0#PHP" expanded="false" />
+            <element signature="e#8068#8322#0#PHP" expanded="false" />
+            <element signature="e#8331#8622#0#PHP" expanded="false" />
+            <element signature="e#8378#8617#0#PHP" expanded="false" />
+            <element signature="e#8627#8885#0#PHP" expanded="false" />
+            <element signature="e#8758#8885#0#PHP" expanded="false" />
+            <element signature="e#8889#9520#0#PHP" expanded="false" />
+            <element signature="e#8913#9454#0#PHP" expanded="false" />
+            <element signature="e#8935#9217#0#PHP" expanded="false" />
+            <element signature="e#9082#9217#0#PHP" expanded="false" />
+            <element signature="e#9224#9454#0#PHP" expanded="false" />
+            <element signature="e#9236#9448#0#PHP" expanded="false" />
+            <element signature="e#9347#9448#0#PHP" expanded="false" />
+            <element signature="e#9460#9520#0#PHP" expanded="false" />
+            <element signature="e#9750#9911#0#PHP" expanded="false" />
+            <element signature="e#9930#10065#0#PHP" expanded="false" />
+            <element signature="e#10019#10061#0#PHP" expanded="false" />
+            <element signature="e#10068#10198#0#PHP" expanded="false" />
+            <element signature="e#10152#10194#0#PHP" expanded="false" />
+            <element signature="e#10201#10323#0#PHP" expanded="false" />
+            <element signature="e#10277#10319#0#PHP" expanded="false" />
+            <element signature="e#10326#10568#0#PHP" expanded="false" />
+            <element signature="e#10450#10568#0#PHP" expanded="false" />
+            <element signature="n#onview#0;n#pm_clientcontrol#0;n#!!top" expanded="false" />
+            <element signature="e#11121#11407#0#PHP" expanded="false" />
+            <element signature="e#11171#11232#0#PHP" expanded="false" />
+            <element signature="e#11233#11295#0#PHP" expanded="false" />
+            <element signature="e#11296#11358#0#PHP" expanded="false" />
+            <element signature="e#11359#11407#0#PHP" expanded="false" />
+            <element signature="e#11436#11739#0#PHP" expanded="false" />
+            <element signature="e#11640#11739#0#PHP" expanded="false" />
+            <element signature="e#11742#11863#0#PHP" expanded="false" />
+            <element signature="e#11948#12121#0#PHP" expanded="false" />
+            <element signature="e#12125#12405#0#PHP" expanded="false" />
+            <element signature="n#onmember#0;n#pm_clientcontrol#0;n#!!top" expanded="false" />
+            <element signature="e#13603#13883#0#PHP" expanded="false" />
+            <element signature="e#13677#13752#0#PHP" expanded="false" />
+            <element signature="e#13886#14413#0#PHP" expanded="false" />
+            <element signature="e#14021#14280#0#PHP" expanded="false" />
+            <element signature="e#14121#14275#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/pm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="14.25" vertical-offset="399" max-vertical-offset="7087">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="779">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="622">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/friend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="16.285715" vertical-offset="456" max-vertical-offset="1121">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/feed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="26.464285" vertical-offset="741" max-vertical-offset="1995">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1409800958000" expanded="true" signature="1473:2036" placeholder="INSERT INTO ..." />
+            <marker date="1409800958000" expanded="true" signature="2214:2288" placeholder="DELETE FROM ..." />
+            <marker date="1409800958000" expanded="true" signature="2453:2517" placeholder="SELECT * FRO..UC_DBTABLEPREfeeds..." />
+            <marker date="1409800958000" expanded="true" signature="2998:3074" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/domain.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.857142" vertical-offset="0" max-vertical-offset="551">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/credit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.25" vertical-offset="0" max-vertical-offset="931">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="72.89286" vertical-offset="2041" max-vertical-offset="2622">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1409800958000" expanded="true" signature="1335:1418" placeholder="SELECT * FRO..UC_DBTABLEPREapplications..." />
+            <marker date="1409800958000" expanded="true" signature="1567:1915" placeholder="INSERT INTO ..." />
+            <marker date="1409800958000" expanded="true" signature="2426:2520" placeholder="SELECT appid..UC_DBTABLEPREapplications..." />
+            <marker date="1409800958000" expanded="true" signature="3165:3220" placeholder="SELECT DISTI..UC_DBTABLEPREapplications..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_client/client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.142857" vertical-offset="6810" max-vertical-offset="11039">
+          <caret line="371" column="78" selection-start-line="371" selection-start-column="78" selection-end-line="371" selection-end-column="78" />
+          <folding>
+            <marker date="1409800958000" expanded="true" signature="18955:19599" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_client/model/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.75" vertical-offset="49" max-vertical-offset="4427">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <marker date="1409800958000" expanded="true" signature="458:513" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
+            <marker date="1409800958000" expanded="true" signature="613:678" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
+            <marker date="1409800958000" expanded="true" signature="772:831" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
+            <marker date="1409800958000" expanded="true" signature="1659:1778" placeholder="SELECT count..UC_DBTABLEPREmergemembers..." />
+            <marker date="1409800958000" expanded="true" signature="2619:2691" placeholder="SELECT usern..UC_DBTABLEPREmembers..." />
+            <marker date="1409800958000" expanded="true" signature="3611:3676" placeholder="SELECT email..UC_DBTABLEPREmembers..." />
+            <marker date="1409800958000" expanded="true" signature="4394:4564" placeholder="INSERT INTO ..." />
+            <marker date="1409800958000" expanded="true" signature="4621:4677" placeholder="INSERT INTO ..." />
+            <marker date="1409800958000" expanded="true" signature="4841:4934" placeholder="SELECT usern..UC_DBTABLEPREmembers..." />
+            <marker date="1409800958000" expanded="true" signature="5003:5082" placeholder="SELECT COUNT..UC_DBTABLEPREprotectedmembers..." />
+            <marker date="1409800958000" expanded="true" signature="5955:6025" placeholder="SELECT uid F..UC_DBTABLEPREprotectedmembers..." />
+            <marker date="1409800958000" expanded="true" signature="6216:6272" placeholder="DELETE FROM ..." />
+            <marker date="1409800958000" expanded="true" signature="6297:6358" placeholder="DELETE FROM ..." />
+            <marker date="1409800958000" expanded="true" signature="6622:6668" placeholder="SELECT COUNT..UC_DBTABLEPREmembers..." />
+            <marker date="1409800958000" expanded="true" signature="6849:6910" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
+            <marker date="1409800958000" expanded="true" signature="7111:7181" placeholder="SELECT uid F..UC_DBTABLEPREmembers..." />
+            <marker date="1409800958000" expanded="true" signature="7378:7477" placeholder="SELECT uid, ..UC_DBTABLEPREmembers..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/model/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8965516" vertical-offset="1311" max-vertical-offset="4845">
+          <caret line="92" column="24" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="24" />
+          <folding>
+            <marker date="1422701024312" expanded="true" signature="458:513" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
+            <marker date="1422701024312" expanded="true" signature="613:678" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
+            <marker date="1422701024312" expanded="true" signature="772:831" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
+            <marker date="1422701024312" expanded="true" signature="1659:1778" placeholder="SELECT count..UC_DBTABLEPREmergemembers..." />
+            <marker date="1422701024312" expanded="true" signature="2619:2691" placeholder="SELECT usern..UC_DBTABLEPREmembers..." />
+            <marker date="1422701024312" expanded="true" signature="2803:2865" placeholder="SELECT usern..UC_DBTABLEPREmembers..." />
+            <marker date="1422701024312" expanded="true" signature="3946:4011" placeholder="SELECT email..UC_DBTABLEPREmembers..." />
+            <marker date="1422701024312" expanded="true" signature="4729:4899" placeholder="INSERT INTO ..." />
+            <marker date="1422701024312" expanded="true" signature="4956:5012" placeholder="INSERT INTO ..." />
+            <marker date="1422701024312" expanded="true" signature="5176:5269" placeholder="SELECT usern..UC_DBTABLEPREmembers..." />
+            <marker date="1422701024312" expanded="true" signature="5338:5417" placeholder="SELECT COUNT..UC_DBTABLEPREprotectedmembers..." />
+            <marker date="1422701024312" expanded="true" signature="6290:6360" placeholder="SELECT uid F..UC_DBTABLEPREprotectedmembers..." />
+            <marker date="1422701024312" expanded="true" signature="6551:6607" placeholder="DELETE FROM ..." />
+            <marker date="1422701024312" expanded="true" signature="6632:6693" placeholder="DELETE FROM ..." />
+            <marker date="1422701024312" expanded="true" signature="7809:7855" placeholder="SELECT COUNT..UC_DBTABLEPREmembers..." />
+            <marker date="1422701024312" expanded="true" signature="8036:8097" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
+            <marker date="1422701024312" expanded="true" signature="8296:8366" placeholder="SELECT uid F..UC_DBTABLEPREmembers..." />
+            <marker date="1422701024312" expanded="true" signature="8563:8662" placeholder="SELECT uid, ..UC_DBTABLEPREmembers..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/model/note.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.785714" vertical-offset="399" max-vertical-offset="4180">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="23" />
+          <folding>
+            <marker date="1409800958000" expanded="true" signature="1521:1568" placeholder="SELECT COUNT..UC_DBTABLEPREnotelist..." />
+            <marker date="1409800958000" expanded="true" signature="1806:1894" placeholder="SELECT * FRO..UC_DBTABLEPREnotelist..." />
+            <marker date="1409800958000" expanded="true" signature="2303:2363" placeholder="DELETE FROM ..." />
+            <marker date="1409800958000" expanded="true" signature="3083:3201" placeholder="INSERT INTO ..." />
+            <marker date="1409800958000" expanded="true" signature="6235:6329" placeholder="SELECT * FRO..UC_DBTABLEPREnotelist..." />
+            <marker date="1409800958000" expanded="true" signature="6419:6473" placeholder="DELETE FROM ..." />
+            <marker date="1409800958000" expanded="true" signature="6978:7040" placeholder="SELECT * FRO..UC_DBTABLEPREnotelist..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/admin/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.071428" vertical-offset="876" max-vertical-offset="2071">
+          <caret line="277" column="139" selection-start-line="276" selection-start-column="16" selection-end-line="277" selection-end-column="139" />
+          <folding>
+            <element signature="n#__construct#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="n#control#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="e#840#1026#0#PHP" expanded="false" />
+            <element signature="e#899#1022#0#PHP" expanded="false" />
+            <element signature="n#onlogin#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="e#1340#1421#0#PHP" expanded="false" />
+            <element signature="e#1554#4600#0#PHP" expanded="false" />
+            <element signature="e#1700#4596#0#PHP" expanded="false" />
+            <element signature="e#1736#1998#0#PHP" expanded="false" />
+            <element signature="e#1845#1998#0#PHP" expanded="false" />
+            <element signature="e#2004#4596#0#PHP" expanded="false" />
+            <element signature="e#2295#4591#0#PHP" expanded="false" />
+            <element signature="e#2401#4591#0#PHP" expanded="false" />
+            <element signature="e#2491#3411#0#PHP" expanded="false" />
+            <element signature="e#2633#2851#0#PHP" expanded="false" />
+            <element signature="e#2790#2851#0#PHP" expanded="false" />
+            <element signature="e#2859#3411#0#PHP" expanded="false" />
+            <element signature="e#3064#3404#0#PHP" expanded="false" />
+            <element signature="e#3151#3328#0#PHP" expanded="false" />
+            <element signature="e#3267#3328#0#PHP" expanded="false" />
+            <element signature="e#3337#3404#0#PHP" expanded="false" />
+            <element signature="e#3418#4585#0#PHP" expanded="false" />
+            <element signature="e#3611#3883#0#PHP" expanded="false" />
+            <element signature="e#3763#3883#0#PHP" expanded="false" />
+            <element signature="e#3891#4585#0#PHP" expanded="false" />
+            <element signature="e#3904#4112#0#PHP" expanded="false" />
+            <element signature="e#4120#4578#0#PHP" expanded="false" />
+            <element signature="e#4429#4578#0#PHP" expanded="false" />
+            <element signature="n#onlogout#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="n#onadd#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="e#5154#5202#0#PHP" expanded="false" />
+            <element signature="e#5323#5708#0#PHP" expanded="false" />
+            <element signature="e#5382#5704#0#PHP" expanded="false" />
+            <element signature="e#5490#5598#0#PHP" expanded="false" />
+            <element signature="e#5599#5704#0#PHP" expanded="false" />
+            <element signature="e#5711#6086#0#PHP" expanded="false" />
+            <element signature="e#5764#6082#0#PHP" expanded="false" />
+            <element signature="e#5875#5982#0#PHP" expanded="false" />
+            <element signature="e#5983#6082#0#PHP" expanded="false" />
+            <element signature="n#onls#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="e#6310#6774#0#PHP" expanded="false" />
+            <element signature="e#6514#6770#0#PHP" expanded="false" />
+            <element signature="e#6575#6765#0#PHP" expanded="false" />
+            <element signature="e#6820#6993#0#PHP" expanded="false" />
+            <element signature="e#7297#7412#0#PHP" expanded="false" />
+            <element signature="e#7415#7515#0#PHP" expanded="false" />
+            <element signature="e#7518#7628#0#PHP" expanded="false" />
+            <element signature="e#7631#7786#0#PHP" expanded="false" />
+            <element signature="e#7789#7936#0#PHP" expanded="false" />
+            <element signature="e#7939#8049#0#PHP" expanded="false" />
+            <element signature="e#8225#8378#0#PHP" expanded="false" />
+            <element signature="n#_check_username#0;n#control#0;n#!!top" expanded="false" />
+            <element signature="e#11230#11559#0#PHP" expanded="false" />
+            <element signature="e#11322#11417#0#PHP" expanded="false" />
+            <element signature="e#11418#11535#0#PHP" expanded="false" />
+            <element signature="e#11536#11559#0#PHP" expanded="false" />
+            <element signature="e#11607#11746#0#PHP" expanded="false" />
+            <element signature="e#11636#11742#0#PHP" expanded="false" />
+            <marker date="1422695526210" expanded="true" signature="1623:1693" placeholder="SELECT * FRO..UC_DBTABLEPREfailedlogins..." />
+            <marker date="1422695526210" expanded="true" signature="1917:1989" placeholder="DELETE FROM ..." />
+            <marker date="1422695526210" expanded="true" signature="2905:3054" placeholder="SELECT a.uid..UC_DBTABLEPREadmins..." />
+            <marker date="1422695526210" expanded="true" signature="4215:4287" placeholder="DELETE FROM ..." />
+            <marker date="1422695526210" expanded="true" signature="4316:4417" placeholder="INSERT INTO ..." />
+            <marker date="1422695526210" expanded="true" signature="9006:9079" placeholder="SELECT COUNT..UC_DBTABLEPREprotectedmembers..." />
+            <marker date="1422695526210" expanded="true" signature="10408:10463" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65762" vertical-offset="1414" max-vertical-offset="2603">
+          <caret line="239" column="148" selection-start-line="239" selection-start-column="148" selection-end-line="239" selection-end-column="148" />
+          <folding>
+            <element signature="n#__construct#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="n#usercontrol#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="n#onsynlogin#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="e#711#1732#0#PHP" expanded="false" />
+            <element signature="e#743#1728#0#PHP" expanded="false" />
+            <element signature="e#822#1703#0#PHP" expanded="false" />
+            <element signature="e#877#1697#0#PHP" expanded="false" />
+            <element signature="e#1290#1690#0#PHP" expanded="false" />
+            <element signature="n#onsynlogout#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="e#1801#2547#0#PHP" expanded="false" />
+            <element signature="e#1850#2524#0#PHP" expanded="false" />
+            <element signature="e#1904#2519#0#PHP" expanded="false" />
+            <element signature="e#2215#2513#0#PHP" expanded="false" />
+            <element signature="n#onregister#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="e#2845#2923#0#PHP" expanded="false" />
+            <element signature="e#2926#2998#0#PHP" expanded="false" />
+            <element signature="e#3431#3541#0#PHP" expanded="false" />
+            <element signature="n#onlogin#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="e#4123#4350#0#PHP" expanded="false" />
+            <element signature="e#4199#4280#0#PHP" expanded="false" />
+            <element signature="e#4281#4350#0#PHP" expanded="false" />
+            <element signature="e#4437#4736#0#PHP" expanded="false" />
+            <element signature="e#4477#4560#0#PHP" expanded="false" />
+            <element signature="e#4561#4698#0#PHP" expanded="false" />
+            <element signature="e#4699#4736#0#PHP" expanded="false" />
+            <element signature="n#oncheck_email#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="n#oncheck_username#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="e#5133#5235#0#PHP" expanded="false" />
+            <element signature="e#5212#5235#0#PHP" expanded="false" />
+            <element signature="n#onget_user#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="e#5330#5490#0#PHP" expanded="false" />
+            <element signature="e#5424#5490#0#PHP" expanded="false" />
+            <element signature="e#5493#5604#0#PHP" expanded="false" />
+            <element signature="e#5581#5604#0#PHP" expanded="false" />
+            <element signature="n#ongetprotected#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="n#ondelete#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="n#ondeleteavatar#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="n#onaddprotected#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="e#6239#6536#0#PHP" expanded="false" />
+            <element signature="n#ondeleteprotected#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="e#6741#6895#0#PHP" expanded="false" />
+            <element signature="n#onmerge_remove#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="e#8246#8532#0#PHP" expanded="false" />
+            <element signature="e#8339#8436#0#PHP" expanded="false" />
+            <element signature="e#8437#8532#0#PHP" expanded="false" />
+            <element signature="n#_check_email#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="e#8600#8940#0#PHP" expanded="false" />
+            <element signature="e#8692#8787#0#PHP" expanded="false" />
+            <element signature="e#8788#8916#0#PHP" expanded="false" />
+            <element signature="e#8917#8940#0#PHP" expanded="false" />
+            <element signature="e#9286#9666#0#PHP" expanded="false" />
+            <element signature="n#onuploadavatar#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="e#9975#10010#0#PHP" expanded="false" />
+            <element signature="e#10013#10063#0#PHP" expanded="false" />
+            <element signature="e#10154#10255#0#PHP" expanded="false" />
+            <element signature="e#10492#10898#0#PHP" expanded="false" />
+            <element signature="e#10732#10824#0#PHP" expanded="false" />
+            <element signature="e#10829#10898#0#PHP" expanded="false" />
+            <element signature="n#onrectavatar#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="e#11273#11356#0#PHP" expanded="false" />
+            <element signature="e#11392#11489#0#PHP" expanded="false" />
+            <element signature="e#12034#12152#0#PHP" expanded="false" />
+            <element signature="e#12573#12889#0#PHP" expanded="false" />
+            <element signature="e#12969#13134#0#PHP" expanded="false" />
+            <element signature="e#13056#13134#0#PHP" expanded="false" />
+            <element signature="n#flashdata_decode#0;n#usercontrol#0;n#!!top" expanded="false" />
+            <element signature="e#13205#13376#0#PHP" expanded="false" />
+            <marker date="1422702966168" expanded="true" signature="5683:5759" placeholder="SELECT uid,u..UC_DBTABLEPREprotectedmembers..." />
+            <marker date="1422702966168" expanded="true" signature="6797:6888" placeholder="DELETE FROM ..." />
+            <marker date="1422702966168" expanded="true" signature="7356:7463" placeholder="DELETE FROM ..." />
+            <marker date="1422702966168" expanded="true" signature="8021:8125" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
