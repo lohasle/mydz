@@ -229,7 +229,7 @@ class usercontrol extends base {
 	}
 
 
-	//重命名
+	// 重命名
 	function onrename() {
 		$this->init_input();
 		$newusername = $this->input('newusername');

@@ -89,7 +89,7 @@ class usermodel {
 		return $data;
 	}
 
-	//重命名用户名
+	// 重命名用户名
 	function rename_user($newusername,$uid) {
 		$data = $this->db->result_first("SELECT username FROM ".UC_DBTABLEPRE."members WHERE uid='$uid'");
 		if(!empty($data)){
