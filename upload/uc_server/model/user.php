@@ -89,7 +89,7 @@ class usermodel {
 		return $data;
 	}
 
-	// 重命名用户名
+	// todo 重命名用户名
 	function rename_user($newusername,$uid) {
 		$data = $this->db->result_first("SELECT username FROM ".UC_DBTABLEPRE."members WHERE uid='$uid'");
 		if(!empty($data)){
@@ -97,6 +97,12 @@ class usermodel {
 			return $this->db->affected_rows();
 		}
 		return -1;
+	}
+
+	// todo 找回用密碼 根據用戶名
+	function repwd_user($username,$password) {
+		$data = $this->db->query("UPDATE ".UC_DBTABLEPRE."members SET password='$password' WHERE username='$username'");;
+		return API_RETURN_SUCCEED;
 	}
 
 	function check_emailformat($email) {

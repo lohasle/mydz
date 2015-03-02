@@ -8,6 +8,8 @@
 //
 // ----------------------------------------------------------------------------
 
+require_once("restclient.php");
+define("BASE_URL","http://192.168.199.130:8090/server/"); // 后台地址
 
 if(!defined('IN_DISCUZ')) {
 	exit('Access Denied');
@@ -37,7 +39,6 @@ if($_G['setting']['need_friendnum']) {
 unset($ckuser);
 require_once libfile('class/credit');
 require_once libfile('function/post');
-
 
 $pid = intval(getgpc('pid'));
 $sortid = intval(getgpc('sortid'));
@@ -629,9 +630,43 @@ if($_GET['do'] == 'newthread' || $_GET['do'] == 'newtrade') {
 		$json['data']['tid']=$_G['tid'];
 		$json['data']['pid']=$pid = $modpost->pid;
 		$json['data']['pw']=$_GET['pw'];
-		json_echo($json);	
-	$json['data']=$data;
 
+		//  加入 通知后台程序 begin
+		if($_GET['do']=='newthread'){
+			//发表新帖
+			$uc_from_user = $_G['username'];
+			$uc_to_user = $thread['author'];
+
+		}else if($_GET['do']=='reply'){
+			//回复帖子
+			$uc_from_user = $_G['username'];
+			$uc_to_user = $thread['author'];
+			$thread_content = $_POST['message'];//回复的内容
+
+			//  通知java后台
+			header('Content-type: application/json');
+			$params = array(
+				"fromUserName"=>$uc_from_user,
+				"toUserName"=>$uc_to_user,
+				"tid"=>$_POST['tid'],
+				"content"=>$thread_content,
+			);
+			$api = new RestClient(array(
+				'base_url' => constant('BASE_URL'),
+				'format' => "json",
+				'parameters'=>$params
+			));
+
+			$result = $api->post("/dz/reply/notice");
+			if($result->info->http_code == 200){
+				// 通知成功
+
+			}
+		}// end
+
+
+		json_echo($json);   //  发帖 回帖输出
+	$json['data']=$data;
 } elseif($_GET['do'] == 'edit') {
 	loadcache('groupreadaccess');
 	$orig = get_post_by_tid_pid($_G['tid'], $pid);
@@ -1106,18 +1141,6 @@ function formulaperm1($formula) {
 }
 if($json['code']!=0){
 	$json['success']=false;
-}
-//    todo 加入 通知后台程序
-if($_GET['do']=='newthread'){
-	//发表新帖
-	$uc_from_user = $_G['username'];
-	$uc_to_user = $thread['author'];
-
-}else if($_GET['do']=='reply'){
-	//回复帖子
-	$uc_from_user = $_G['username'];
-	$uc_to_user = $thread['author'];
-	$thread_content = $_POST['message'];//回复的内容
 }
 json_echo($json);
 ?>

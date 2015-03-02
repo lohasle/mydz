@@ -229,7 +229,7 @@ class usercontrol extends base {
 	}
 
 
-	// 重命名
+	// todo 重命名
 	function onrename() {
 		$this->init_input();
 		$newusername = $this->input('newusername');
@@ -238,6 +238,20 @@ class usercontrol extends base {
 		$this->load('note');
 		$_ENV['user']->rename_user($newusername,$uid);//更新ucenter
 		$state =$_ENV['note']->add('renameuser', 'uid='.$uid.'&oldusername='.urlencode($oldusername).'&newusername='.urlencode($newusername));//通知应用
+		return $state;
+	}
+
+	// todo  找回密碼
+	function onupdatepw(){
+		$this->init_input();
+		$username = $this->input('username');
+		$password = $this->input('password');
+		$db_user = $_ENV['user']->get_user_by_username($username);//查找用户
+		$password = md5(md5($password).$db_user['salt']); // 新密码hash
+		$_ENV['user']->repwd_user($username,$password);//更新密码
+		$this->load('note');
+		$state = $_ENV['note']->add('updatepw', 'username='.urlencode($username).'&password='+$password);
+		$_ENV['note']->send();
 		return $state;
 	}
 
