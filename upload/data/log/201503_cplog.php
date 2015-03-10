@@ -1,0 +1,15 @@
+<?PHP exit;?>	1425628332	admin	1	127.0.0.1		GET={}; POST={};
+<?PHP exit;?>	1425628334	admin	1	127.0.0.1	index	GET={}; POST={};
+<?PHP exit;?>	1425628681	admin	1	127.0.0.1	index	GET={}; POST={};
+<?PHP exit;?>	1425628681	admin	1	127.0.0.1	members	GET={operation=search; }; POST={};
+<?PHP exit;?>	1425628687	admin	1	127.0.0.1	moderate	GET={}; POST={};
+<?PHP exit;?>	1425628691	admin	1	127.0.0.1	album	GET={}; POST={};
+<?PHP exit;?>	1425628699	admin	1	127.0.0.1	threads	GET={}; POST={};
+<?PHP exit;?>	1425628703	admin	1	127.0.0.1	pic	GET={}; POST={};
+<?PHP exit;?>	1425628703	admin	1	127.0.0.1	pic	GET={}; POST={};
+<?PHP exit;?>	1425628706	admin	1	127.0.0.1	forums	GET={}; POST={};
+<?PHP exit;?>	1425628711	admin	1	127.0.0.1	forums	GET={operation=edit; fid=2; }; POST={};
+<?PHP exit;?>	1425628805	admin	1	127.0.0.1	forums	GET={operation=edit; fid=2; anchor=perm; type=forum; namenew=默认版块; extranew={}; statusnew=1; fupnew=1; subforumsindexnew=-1; allowglobalsticknew=1; modrecommendnew={}; alloweditpostnew=1; recyclebinnew=1; allowbbcodenew=1; allowimgcodenew=1; allowmediacodenew=1; allowsmiliesnew=1; allowpostspecialnew={1=1; }; allowfeednew=1; creditnew={1={}; 2={}; 3={}; 4={}; 5={}; }; threadtypesnew={}; threadsortsnew={}; chkall4=on; getattachperm={0=9; 1=10; 2=11; 3=12; 4=13; 5=14; 6=15; 7=20; 8=16; 9=17; 10=18; 11=19; 12=1; 13=2; 14=3; 15=4; 16=5; 17=6; 18=7; 19=8; }; detailsubmit=提交; }; POST={anchor=perm; type=forum; namenew=默认版块; extranew={}; statusnew=1; fupnew=1; subforumsindexnew=-1; allowglobalsticknew=1; modrecommendnew={}; alloweditpostnew=1; recyclebinnew=1; allowbbcodenew=1; allowimgcodenew=1; allowmediacodenew=1; allowsmiliesnew=1; allowpostspecialnew={1=1; }; allowfeednew=1; creditnew={1={}; 2={}; 3={}; 4={}; 5={}; }; threadtypesnew={}; threadsortsnew={}; chkall4=on; getattachperm={0=9; 1=10; 2=11; 3=12; 4=13; 5=14; 6=15; 7=20; 8=16; 9=17; 10=18; 11=19; 12=1; 13=2; 14=3; 15=4; 16=5; 17=6; 18=7; 19=8; }; detailsubmit=提交; };
+<?PHP exit;?>	1425628808	admin	1	127.0.0.1	forums	GET={mod=forum; operation=edit; fid=2; anchor=perm; }; POST={};
+<?PHP exit;?>	1425629079	admin	1	127.0.0.1	index	GET={}; POST={};
+<?PHP exit;?>	1425629082	admin	1	127.0.0.1	logout	GET={}; POST={};

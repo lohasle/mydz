@@ -631,19 +631,19 @@ if($_GET['do'] == 'newthread' || $_GET['do'] == 'newtrade') {
 		$json['data']['pid']=$pid = $modpost->pid;
 		$json['data']['pw']=$_GET['pw'];
 
-		//  加入 通知后台程序 begin
+		//  todo 加入 通知后台程序 begin
 		if($_GET['do']=='newthread'){
 			//发表新帖
 			$uc_from_user = $_G['username'];
 			$uc_to_user = $thread['author'];
 
 		}else if($_GET['do']=='reply'){
-			//回复帖子
+			// todo 回复帖子
 			$uc_from_user = $_G['username'];
 			$uc_to_user = $thread['author'];
 			$thread_content = $_POST['message'];//回复的内容
 
-			//  通知java后台
+			// todo 通知java后台
 			header('Content-type: application/json');
 			$params = array(
 				"fromUserName"=>$uc_from_user,

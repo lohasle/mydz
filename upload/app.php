@@ -7,7 +7,6 @@
 //  Creation Date:  2013-08-14 18:18:49
 //
 // ----------------------------------------------------------------------------
-
 define('IN_APP', true);
 define('CURSCRIPT', 'app');
 require_once './source/class/class_core.php';
@@ -345,7 +344,7 @@ function adduser($data) {
 function init_user() {
 	global $_G,$authkey;
 	$key="weizy_tobetcmno1";
-	$token = authcode(urldecode($_GET['token']),'DECODE',$key);
+	$token = authcode(utf8_decode(urldecode($_GET['token'])),'DECODE',$key);
 	$tokens =explode("\t", $token);
 //	test($tokens);
 	list($discuz_username,$logintime, $discuz_pw) = empty($tokens) || count($tokens) < 3 ? array('', '', '') : $tokens;

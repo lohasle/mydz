@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="6d80e03a-9203-4680-a003-3aef37ff1946" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/data/threadcache/d/2/0/0.htm" afterPath="$PROJECT_DIR$/upload/data/threadcache/d/2/0/0.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/data/log/201503_illegallog.php" afterPath="$PROJECT_DIR$/upload/data/log/201503_illegallog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/app.php" afterPath="$PROJECT_DIR$/upload/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/source/module/app/app_forum.php" afterPath="$PROJECT_DIR$/upload/source/module/app/app_forum.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/source/module/app/app_post.php" afterPath="$PROJECT_DIR$/upload/source/module/app/app_post.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/uc_server/control/user.php" afterPath="$PROJECT_DIR$/upload/uc_server/control/user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/uc_server/model/user.php" afterPath="$PROJECT_DIR$/upload/uc_server/model/user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/source/module/app/app_thread.php" afterPath="$PROJECT_DIR$/upload/source/module/app/app_thread.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/source/module/app/app_upload.php" afterPath="$PROJECT_DIR$/upload/source/module/app/app_upload.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Discuz_X3.2.iws" />
@@ -35,288 +38,116 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="user.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/upload/uc_server/control/user.php">
+      <file leaf-file-name="app.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/upload/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.575" vertical-offset="1220" max-vertical-offset="2299">
-              <caret line="306" column="0" selection-start-line="306" selection-start-column="0" selection-end-line="306" selection-end-column="0" />
-              <folding>
-                <element signature="n#__construct#0;n#usercontrol#0;n#!!top" expanded="false" />
-                <element signature="n#usercontrol#0;n#usercontrol#0;n#!!top" expanded="false" />
-                <element signature="n#onsynlogin#0;n#usercontrol#0;n#!!top" expanded="false" />
-                <element signature="e#711#1732#0#PHP" expanded="false" />
-                <element signature="e#743#1728#0#PHP" expanded="false" />
-                <element signature="e#822#1703#0#PHP" expanded="false" />
-                <element signature="e#877#1697#0#PHP" expanded="false" />
-                <element signature="e#1290#1690#0#PHP" expanded="false" />
-                <element signature="n#onsynlogout#0;n#usercontrol#0;n#!!top" expanded="false" />
-                <element signature="e#1801#2547#0#PHP" expanded="false" />
-                <element signature="e#1850#2524#0#PHP" expanded="false" />
-                <element signature="e#1904#2519#0#PHP" expanded="false" />
-                <element signature="e#2215#2513#0#PHP" expanded="false" />
-                <element signature="n#onregister#0;n#usercontrol#0;n#!!top" expanded="false" />
-                <element signature="e#2845#2923#0#PHP" expanded="false" />
-                <element signature="e#2926#2998#0#PHP" expanded="false" />
-                <element signature="e#3431#3541#0#PHP" expanded="false" />
-                <element signature="n#onlogin#0;n#usercontrol#0;n#!!top" expanded="false" />
-                <element signature="e#4123#4350#0#PHP" expanded="false" />
-                <element signature="e#4199#4280#0#PHP" expanded="false" />
-                <element signature="e#4281#4350#0#PHP" expanded="false" />
-                <element signature="e#4437#4736#0#PHP" expanded="false" />
-                <element signature="e#4477#4560#0#PHP" expanded="false" />
-                <element signature="e#4561#4698#0#PHP" expanded="false" />
-                <element signature="e#4699#4736#0#PHP" expanded="false" />
-                <element signature="n#oncheck_email#0;n#usercontrol#0;n#!!top" expanded="false" />
-                <element signature="n#oncheck_username#0;n#usercontrol#0;n#!!top" expanded="false" />
-                <element signature="e#5133#5235#0#PHP" expanded="false" />
-                <element signature="e#5212#5235#0#PHP" expanded="false" />
-                <element signature="n#onget_user#0;n#usercontrol#0;n#!!top" expanded="false" />
-                <element signature="e#5330#5490#0#PHP" expanded="false" />
-                <element signature="e#5424#5490#0#PHP" expanded="false" />
-                <element signature="e#5493#5604#0#PHP" expanded="false" />
-                <element signature="e#5581#5604#0#PHP" expanded="false" />
-                <element signature="n#ongetprotected#0;n#usercontrol#0;n#!!top" expanded="false" />
-                <element signature="n#ondelete#0;n#usercontrol#0;n#!!top" expanded="false" />
-                <element signature="n#ondeleteavatar#0;n#usercontrol#0;n#!!top" expanded="false" />
-                <element signature="n#onaddprotected#0;n#usercontrol#0;n#!!top" expanded="false" />
-                <element signature="e#6239#6536#0#PHP" expanded="false" />
-                <element signature="n#ondeleteprotected#0;n#usercontrol#0;n#!!top" expanded="false" />
-                <element signature="e#6741#6895#0#PHP" expanded="false" />
-                <element signature="n#onmerge#0;n#usercontrol#0;n#!!top" expanded="false" />
-                <element signature="e#7181#7262#0#PHP" expanded="false" />
-                <element signature="n#onmerge_remove#0;n#usercontrol#0;n#!!top" expanded="false" />
-                <element signature="n#_check_username#0;n#usercontrol#0;n#!!top" expanded="false" />
-                <element signature="e#8749#9035#0#PHP" expanded="false" />
-                <element signature="e#8842#8939#0#PHP" expanded="false" />
-                <element signature="e#8940#9035#0#PHP" expanded="false" />
-                <element signature="n#_check_email#0;n#usercontrol#0;n#!!top" expanded="false" />
-                <element signature="e#9103#9443#0#PHP" expanded="false" />
-                <element signature="e#9195#9290#0#PHP" expanded="false" />
-                <element signature="e#9291#9419#0#PHP" expanded="false" />
-                <element signature="e#9420#9443#0#PHP" expanded="false" />
-                <element signature="n#ongetcredit#0;n#usercontrol#0;n#!!top" expanded="false" />
-                <element signature="e#9789#10169#0#PHP" expanded="false" />
-                <element signature="e#9990#10169#0#PHP" expanded="false" />
-                <element signature="n#onuploadavatar#0;n#usercontrol#0;n#!!top" expanded="false" />
-                <element signature="e#10478#10513#0#PHP" expanded="false" />
-                <element signature="e#10516#10566#0#PHP" expanded="false" />
-                <element signature="e#10657#10758#0#PHP" expanded="false" />
-                <element signature="e#10995#11401#0#PHP" expanded="false" />
-                <element signature="e#11235#11327#0#PHP" expanded="false" />
-                <element signature="e#11332#11401#0#PHP" expanded="false" />
-                <element signature="n#onrectavatar#0;n#usercontrol#0;n#!!top" expanded="false" />
-                <element signature="e#11776#11859#0#PHP" expanded="false" />
-                <element signature="e#11895#11992#0#PHP" expanded="false" />
-                <element signature="e#12537#12655#0#PHP" expanded="false" />
-                <element signature="e#13076#13392#0#PHP" expanded="false" />
-                <element signature="e#13472#13637#0#PHP" expanded="false" />
-                <element signature="e#13559#13637#0#PHP" expanded="false" />
-                <element signature="n#flashdata_decode#0;n#usercontrol#0;n#!!top" expanded="false" />
-                <element signature="e#13708#13879#0#PHP" expanded="false" />
-                <marker date="1425286762732" expanded="false" signature="5683:5759" placeholder="SELECT uid,u..UC_DBTABLEPREprotectedmembers..." />
-                <marker date="1425286762732" expanded="false" signature="6797:6888" placeholder="DELETE FROM ..." />
-                <marker date="1425286762732" expanded="false" signature="7356:7463" placeholder="DELETE FROM ..." />
-                <marker date="1425286762732" expanded="false" signature="8524:8628" placeholder="DELETE FROM ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upload/uc_server/model/user.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.2413793" vertical-offset="171" max-vertical-offset="4959">
-              <caret line="30" column="33" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="33" />
-              <folding>
-                <marker date="1425285090823" expanded="true" signature="458:513" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
-                <marker date="1425285090823" expanded="true" signature="613:678" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
-                <marker date="1425285090823" expanded="true" signature="772:831" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
-                <marker date="1425285090823" expanded="true" signature="1659:1778" placeholder="SELECT count..UC_DBTABLEPREmergemembers..." />
-                <marker date="1425285090823" expanded="true" signature="2619:2691" placeholder="SELECT usern..UC_DBTABLEPREmembers..." />
-                <marker date="1425285090823" expanded="true" signature="2809:2871" placeholder="SELECT usern..UC_DBTABLEPREmembers..." />
-                <marker date="1425285090823" expanded="true" signature="3149:3232" placeholder="UPDATE membe..." />
-                <marker date="1425285090823" expanded="true" signature="4166:4231" placeholder="SELECT email..UC_DBTABLEPREmembers..." />
-                <marker date="1425285090823" expanded="true" signature="4949:5119" placeholder="INSERT INTO ..." />
-                <marker date="1425285090823" expanded="true" signature="5176:5232" placeholder="INSERT INTO ..." />
-                <marker date="1425285090823" expanded="true" signature="5396:5489" placeholder="SELECT usern..UC_DBTABLEPREmembers..." />
-                <marker date="1425285090823" expanded="true" signature="5558:5637" placeholder="SELECT COUNT..UC_DBTABLEPREprotectedmembers..." />
-                <marker date="1425285090823" expanded="true" signature="6510:6580" placeholder="SELECT uid F..UC_DBTABLEPREprotectedmembers..." />
-                <marker date="1425285090823" expanded="true" signature="6771:6827" placeholder="DELETE FROM ..." />
-                <marker date="1425285090823" expanded="true" signature="6852:6913" placeholder="DELETE FROM ..." />
-                <marker date="1425285090823" expanded="true" signature="8029:8075" placeholder="SELECT COUNT..UC_DBTABLEPREmembers..." />
-                <marker date="1425285090823" expanded="true" signature="8256:8317" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
-                <marker date="1425285090823" expanded="true" signature="8516:8586" placeholder="SELECT uid F..UC_DBTABLEPREmembers..." />
-                <marker date="1425285090823" expanded="true" signature="8783:8882" placeholder="SELECT uid, ..UC_DBTABLEPREmembers..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tag.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upload/uc_server/control/tag.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="34.964287" vertical-offset="1093" max-vertical-offset="1615">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.12688822" vertical-offset="6209" max-vertical-offset="8759">
+              <caret line="335" column="17" selection-start-line="335" selection-start-column="17" selection-end-line="335" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pm.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upload/uc_server/control/pm.php">
+      <file leaf-file-name="apptest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upload/apptest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="14.25" vertical-offset="399" max-vertical-offset="7087">
+            <state vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="893">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userapp.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upload/userapp.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1178">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pm_client.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upload/uc_server/control/pm_client.php">
+      <file leaf-file-name="func.inc.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upload/uc_server/install/func.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6785714" vertical-offset="4883" max-vertical-offset="8094">
-              <caret line="263" column="25" selection-start-line="263" selection-start-column="25" selection-end-line="263" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upload/uc_server/control/app.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="51.035713" vertical-offset="1429" max-vertical-offset="2622">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="10693" max-vertical-offset="19836">
+              <caret line="577" column="0" selection-start-line="577" selection-start-column="0" selection-end-line="577" selection-end-column="0" />
               <folding>
-                <marker date="1409800958000" expanded="true" signature="1335:1418" placeholder="SELECT * FRO..UC_DBTABLEPREapplications..." />
-                <marker date="1409800958000" expanded="true" signature="1567:1915" placeholder="INSERT INTO ..." />
-                <marker date="1409800958000" expanded="true" signature="2426:2520" placeholder="SELECT appid..UC_DBTABLEPREapplications..." />
-                <marker date="1409800958000" expanded="true" signature="3165:3220" placeholder="SELECT DISTI..UC_DBTABLEPREapplications..." />
+                <marker date="1425695778785" expanded="true" signature="1118:1137" placeholder="..." />
+                <marker date="1425695778785" expanded="true" signature="1165:1202" placeholder="..." />
+                <marker date="1425695778785" expanded="true" signature="7045:7069" placeholder="..." />
+                <marker date="1425695778785" expanded="true" signature="7491:7525" placeholder="..." />
+                <marker date="1425695778785" expanded="true" signature="8416:8450" placeholder="..." />
+                <marker date="1425695778785" expanded="true" signature="24527:24546" placeholder="..." />
+                <marker date="1425695778785" expanded="true" signature="24574:24611" placeholder="..." />
+                <marker date="1425695778785" expanded="true" signature="25111:25130" placeholder="..." />
+                <marker date="1425695778785" expanded="true" signature="26300:26309" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="credit.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upload/uc_server/control/credit.php">
+      <file leaf-file-name="function_core.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upload/source/function/function_core.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.64285713" vertical-offset="381" max-vertical-offset="931">
-              <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="domain.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upload/uc_server/control/domain.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.821428" vertical-offset="1" max-vertical-offset="551">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upload/uc_client/control/user.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="65.77586" vertical-offset="4043" max-vertical-offset="5035">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2352" max-vertical-offset="39729">
+              <caret line="137" column="9" selection-start-line="137" selection-start-column="9" selection-end-line="137" selection-end-column="9" />
               <folding>
-                <marker date="1422694416416" expanded="true" signature="4978:5054" placeholder="SELECT uid,u..UC_DBTABLEPREprotectedmembers..." />
-                <marker date="1422694416416" expanded="true" signature="5964:6055" placeholder="DELETE FROM ..." />
-                <marker date="1422694416416" expanded="true" signature="6523:6630" placeholder="DELETE FROM ..." />
-                <marker date="1422694416416" expanded="true" signature="6765:6869" placeholder="DELETE FROM ..." />
+                <marker date="1409800958000" expanded="true" signature="58146:58206" placeholder="SELECT COUNT..DB_table_tablename..." />
+                <marker date="1409800958000" expanded="true" signature="63925:64003" placeholder="SELECT table..DB_table_forum_attachment_..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upload/uc_server/control/admin/user.php">
+      <file leaf-file-name="standard_2.php" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_PLUGINS_DIR$/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.2142857" vertical-offset="346" max-vertical-offset="1026">
-              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="10410" max-vertical-offset="20121">
+              <caret line="498" column="9" selection-start-line="498" selection-start-column="9" selection-end-line="498" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app_post.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upload/source/module/app/app_post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="11788" max-vertical-offset="21793">
+              <caret line="633" column="16" selection-start-line="633" selection-start-column="12" selection-end-line="633" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app_upload.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upload/source/module/app/app_upload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2470" max-vertical-offset="2793">
+              <caret line="138" column="1" selection-start-line="138" selection-start-column="1" selection-end-line="138" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app_forum.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upload/source/module/app/app_forum.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="236" max-vertical-offset="1881">
+              <caret line="25" column="18" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app_thread.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upload/source/module/app/app_thread.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="5012" max-vertical-offset="13300">
+              <caret line="366" column="24" selection-start-line="366" selection-start-column="24" selection-end-line="366" selection-end-column="24" />
               <folding>
-                <element signature="n#__construct#0;n#control#0;n#!!top" expanded="false" />
-                <element signature="n#control#0;n#control#0;n#!!top" expanded="false" />
-                <element signature="e#840#1026#0#PHP" expanded="false" />
-                <element signature="e#899#1022#0#PHP" expanded="false" />
-                <element signature="n#onlogin#0;n#control#0;n#!!top" expanded="false" />
-                <element signature="e#1340#1421#0#PHP" expanded="false" />
-                <element signature="e#1554#4600#0#PHP" expanded="false" />
-                <element signature="e#1700#4596#0#PHP" expanded="false" />
-                <element signature="e#1736#1998#0#PHP" expanded="false" />
-                <element signature="e#1845#1998#0#PHP" expanded="false" />
-                <element signature="e#2004#4596#0#PHP" expanded="false" />
-                <element signature="e#2295#4591#0#PHP" expanded="false" />
-                <element signature="e#2401#4591#0#PHP" expanded="false" />
-                <element signature="e#2491#3411#0#PHP" expanded="false" />
-                <element signature="e#2633#2851#0#PHP" expanded="false" />
-                <element signature="e#2790#2851#0#PHP" expanded="false" />
-                <element signature="e#2859#3411#0#PHP" expanded="false" />
-                <element signature="e#3064#3404#0#PHP" expanded="false" />
-                <element signature="e#3151#3328#0#PHP" expanded="false" />
-                <element signature="e#3267#3328#0#PHP" expanded="false" />
-                <element signature="e#3337#3404#0#PHP" expanded="false" />
-                <element signature="e#3418#4585#0#PHP" expanded="false" />
-                <element signature="e#3611#3883#0#PHP" expanded="false" />
-                <element signature="e#3763#3883#0#PHP" expanded="false" />
-                <element signature="e#3891#4585#0#PHP" expanded="false" />
-                <element signature="e#3904#4112#0#PHP" expanded="false" />
-                <element signature="e#4120#4578#0#PHP" expanded="false" />
-                <element signature="e#4429#4578#0#PHP" expanded="false" />
-                <element signature="n#onlogout#0;n#control#0;n#!!top" expanded="false" />
-                <element signature="n#onadd#0;n#control#0;n#!!top" expanded="false" />
-                <element signature="e#5154#5202#0#PHP" expanded="false" />
-                <element signature="e#5323#5708#0#PHP" expanded="false" />
-                <element signature="e#5382#5704#0#PHP" expanded="false" />
-                <element signature="e#5490#5598#0#PHP" expanded="false" />
-                <element signature="e#5599#5704#0#PHP" expanded="false" />
-                <element signature="e#5711#6086#0#PHP" expanded="false" />
-                <element signature="e#5764#6082#0#PHP" expanded="false" />
-                <element signature="e#5875#5982#0#PHP" expanded="false" />
-                <element signature="e#5983#6082#0#PHP" expanded="false" />
-                <element signature="n#onls#0;n#control#0;n#!!top" expanded="false" />
-                <element signature="e#6310#6774#0#PHP" expanded="false" />
-                <element signature="e#6514#6770#0#PHP" expanded="false" />
-                <element signature="e#6575#6765#0#PHP" expanded="false" />
-                <element signature="e#6820#6993#0#PHP" expanded="false" />
-                <element signature="e#7297#7412#0#PHP" expanded="false" />
-                <element signature="e#7415#7515#0#PHP" expanded="false" />
-                <element signature="e#7518#7628#0#PHP" expanded="false" />
-                <element signature="e#7631#7786#0#PHP" expanded="false" />
-                <element signature="e#7789#7936#0#PHP" expanded="false" />
-                <element signature="e#7939#8049#0#PHP" expanded="false" />
-                <element signature="e#8225#8378#0#PHP" expanded="false" />
-                <element signature="n#onedit#0;n#control#0;n#!!top" expanded="false" />
-                <element signature="e#8931#9153#0#PHP" expanded="false" />
-                <element signature="e#9086#9149#0#PHP" expanded="false" />
-                <element signature="e#9157#10371#0#PHP" expanded="false" />
-                <element signature="e#9448#9789#0#PHP" expanded="false" />
-                <element signature="e#9484#9587#0#PHP" expanded="false" />
-                <element signature="e#9793#10091#0#PHP" expanded="false" />
-                <element signature="e#10095#10147#0#PHP" expanded="false" />
-                <element signature="e#10151#10224#0#PHP" expanded="false" />
-                <element signature="n#_check_username#0;n#control#0;n#!!top" expanded="false" />
-                <element signature="e#10880#11178#0#PHP" expanded="false" />
-                <element signature="e#10969#11078#0#PHP" expanded="false" />
-                <element signature="e#11083#11178#0#PHP" expanded="false" />
-                <element signature="n#_check_email#0;n#control#0;n#!!top" expanded="false" />
-                <element signature="e#11230#11559#0#PHP" expanded="false" />
-                <element signature="e#11322#11417#0#PHP" expanded="false" />
-                <element signature="e#11418#11535#0#PHP" expanded="false" />
-                <element signature="e#11536#11559#0#PHP" expanded="false" />
-                <element signature="n#_format_userlist#0;n#control#0;n#!!top" expanded="false" />
-                <element signature="e#11607#11746#0#PHP" expanded="false" />
-                <element signature="e#11636#11742#0#PHP" expanded="false" />
-                <marker date="1422695526210" expanded="false" signature="1623:1693" placeholder="SELECT * FRO..UC_DBTABLEPREfailedlogins..." />
-                <marker date="1422695526210" expanded="false" signature="1917:1989" placeholder="DELETE FROM ..." />
-                <marker date="1422695526210" expanded="false" signature="2905:3054" placeholder="SELECT a.uid..UC_DBTABLEPREadmins..." />
-                <marker date="1422695526210" expanded="false" signature="4215:4287" placeholder="DELETE FROM ..." />
-                <marker date="1422695526210" expanded="false" signature="4316:4417" placeholder="INSERT INTO ..." />
-                <marker date="1422695526210" expanded="false" signature="9006:9079" placeholder="SELECT COUNT..UC_DBTABLEPREprotectedmembers..." />
-                <marker date="1422695526210" expanded="false" signature="10408:10463" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
+                <element signature="e#7#86#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -339,10 +170,13 @@
         <option value="$PROJECT_DIR$/upload/uc_client/control/user.php" />
         <option value="$PROJECT_DIR$/upload/uc_server/control/admin/user.php" />
         <option value="$PROJECT_DIR$/upload/uc_server/control/pm_client.php" />
-        <option value="$PROJECT_DIR$/upload/app.php" />
-        <option value="$PROJECT_DIR$/upload/source/module/app/app_post.php" />
         <option value="$PROJECT_DIR$/upload/uc_server/model/user.php" />
         <option value="$PROJECT_DIR$/upload/uc_server/control/user.php" />
+        <option value="$PROJECT_DIR$/upload/source/module/app/app_thread.php" />
+        <option value="$PROJECT_DIR$/upload/source/module/app/app_post.php" />
+        <option value="$PROJECT_DIR$/upload/uc_server/install/func.inc.php" />
+        <option value="$PROJECT_DIR$/upload/apptest.php" />
+        <option value="$PROJECT_DIR$/upload/app.php" />
       </list>
     </option>
   </component>
@@ -382,7 +216,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -400,9 +233,118 @@
               <option name="myItemId" value="Discuz_X3.2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utility" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="readme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discuz_X3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -698,7 +640,11 @@
       <workItem from="1422949741323" duration="3998000" />
       <workItem from="1423790556270" duration="8662000" />
       <workItem from="1425261261755" duration="4060000" />
-      <workItem from="1425274965409" duration="8486000" />
+      <workItem from="1425274965409" duration="9317000" />
+      <workItem from="1425368830752" duration="3410000" />
+      <workItem from="1425627448250" duration="1503000" />
+      <workItem from="1425694818479" duration="5801000" />
+      <workItem from="1425953441135" duration="158000" />
     </task>
     <task id="LOCAL-00001" summary="用户重命名并通知其他应用">
       <created>1422703504001</created>
@@ -710,28 +656,27 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72159000" />
+    <option name="totallyTimeSpent" value="83862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26174498" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46174496" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26174498" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5616622" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16510066" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47516778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.49932885" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49798658" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -743,6 +688,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36107382" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -793,7 +739,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -802,41 +748,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/upload/uc_server/model/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="10.857142" vertical-offset="855" max-vertical-offset="1729">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/uc_server/model/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9063">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/uc_server/install/uc.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8056">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/uc_server/data/config.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8965516" vertical-offset="0" max-vertical-offset="456">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/uc_client/control/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/upload/uc_server/control/admin/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="6.107143" vertical-offset="513" max-vertical-offset="1349">
@@ -1005,30 +916,177 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/upload/source/language/lang_app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="732" max-vertical-offset="1254">
+          <caret line="68" column="2" selection-start-line="68" selection-start-column="2" selection-end-line="68" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.535714" vertical-offset="0" max-vertical-offset="570">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/source/module/app/restclient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.857142" vertical-offset="0" max-vertical-offset="4864">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/source/module/app/tr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5357144" vertical-offset="195" max-vertical-offset="931">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/api/uc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.25" vertical-offset="399" max-vertical-offset="8037">
+          <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/model/note.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.5" vertical-offset="456" max-vertical-offset="4180">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/version.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.714286" vertical-offset="23" max-vertical-offset="589">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/tag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1093" max-vertical-offset="1615">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/pm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="7087">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/pm_client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4883" max-vertical-offset="8094">
+          <caret line="263" column="25" selection-start-line="263" selection-start-column="25" selection-end-line="263" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1429" max-vertical-offset="2622">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/credit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="381" max-vertical-offset="931">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/domain.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="551">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_client/control/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4043" max-vertical-offset="5035">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/admin/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="346" max-vertical-offset="1026">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/model/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="4959">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4642857" vertical-offset="1818" max-vertical-offset="2299">
+          <caret line="256" column="0" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/upload/source/function/function_core.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="39729">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2352" max-vertical-offset="39729">
+          <caret line="137" column="9" selection-start-line="137" selection-start-column="9" selection-end-line="137" selection-end-column="9" />
           <folding>
-            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..DB_table_tablename..." />
-            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="SELECT table..DB_table_forum_attachment_..." />
+            <marker date="1409800958000" expanded="true" signature="58146:58206" placeholder="SELECT COUNT..DB_table_tablename..." />
+            <marker date="1409800958000" expanded="true" signature="63925:64003" placeholder="SELECT table..DB_table_forum_attachment_..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/uc_server/install/func.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="10693" max-vertical-offset="19836">
+          <caret line="577" column="0" selection-start-line="577" selection-start-column="0" selection-end-line="577" selection-end-column="0" />
+          <folding>
+            <marker date="1425695778785" expanded="true" signature="1118:1137" placeholder="..." />
+            <marker date="1425695778785" expanded="true" signature="1165:1202" placeholder="..." />
+            <marker date="1425695778785" expanded="true" signature="7045:7069" placeholder="..." />
+            <marker date="1425695778785" expanded="true" signature="7491:7525" placeholder="..." />
+            <marker date="1425695778785" expanded="true" signature="8416:8450" placeholder="..." />
+            <marker date="1425695778785" expanded="true" signature="24527:24546" placeholder="..." />
+            <marker date="1425695778785" expanded="true" signature="24574:24611" placeholder="..." />
+            <marker date="1425695778785" expanded="true" signature="25111:25130" placeholder="..." />
+            <marker date="1425695778785" expanded="true" signature="26300:26309" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/userapp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1178">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/apptest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="893">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/upload/source/module/app/app_thread.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="38" max-vertical-offset="26486">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/source/language/lang_app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="732" max-vertical-offset="1254">
-          <caret line="68" column="2" selection-start-line="68" selection-start-column="2" selection-end-line="68" selection-end-column="2" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="5012" max-vertical-offset="13300">
+          <caret line="366" column="24" selection-start-line="366" selection-start-column="24" selection-end-line="366" selection-end-column="24" />
+          <folding>
+            <element signature="e#7#86#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1040,596 +1098,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upload/app.php">
+    <entry file="file://$PROJECT_DIR$/upload/source/module/app/app_forum.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4986" max-vertical-offset="6403">
-          <caret line="400" column="60" selection-start-line="400" selection-start-column="60" selection-end-line="400" selection-end-column="60" />
-          <folding>
-            <element signature="n#json_echo#0;n#!!top" expanded="false" />
-            <element signature="n#get_url_word#0;n#!!top" expanded="false" />
-            <element signature="n#insterpost#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.535714" vertical-offset="0" max-vertical-offset="570">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/source/module/app/restclient.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.857142" vertical-offset="0" max-vertical-offset="4864">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/source/module/app/tr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5357144" vertical-offset="195" max-vertical-offset="931">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="236" max-vertical-offset="1881">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/upload/source/module/app/app_post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.607142" vertical-offset="912" max-vertical-offset="4009">
-          <caret line="173" column="32" selection-start-line="173" selection-start-column="32" selection-end-line="173" selection-end-column="32" />
-          <folding>
-            <element signature="e#413#466#0#PHP" expanded="false" />
-            <element signature="e#661#874#0#PHP" expanded="false" />
-            <element signature="e#875#1004#0#PHP" expanded="false" />
-            <element signature="e#1005#1131#0#PHP" expanded="false" />
-            <element signature="e#1132#1377#0#PHP" expanded="false" />
-            <element signature="e#1204#1375#0#PHP" expanded="false" />
-            <element signature="e#1951#2020#0#PHP" expanded="false" />
-            <element signature="e#2022#2940#0#PHP" expanded="false" />
-            <element signature="e#2057#2137#0#PHP" expanded="false" />
-            <element signature="e#2236#2938#0#PHP" expanded="false" />
-            <element signature="e#2305#2370#0#PHP" expanded="false" />
-            <element signature="e#2371#2471#0#PHP" expanded="false" />
-            <element signature="e#2472#2536#0#PHP" expanded="false" />
-            <element signature="e#2537#2818#0#PHP" expanded="false" />
-            <element signature="e#2562#2815#0#PHP" expanded="false" />
-            <element signature="e#2684#2815#0#PHP" expanded="false" />
-            <element signature="e#2819#2938#0#PHP" expanded="false" />
-            <element signature="e#2942#3187#0#PHP" expanded="false" />
-            <element signature="e#2997#3084#0#PHP" expanded="false" />
-            <element signature="e#3085#3187#0#PHP" expanded="false" />
-            <element signature="e#3189#3418#0#PHP" expanded="false" />
-            <element signature="e#3335#3418#0#PHP" expanded="false" />
-            <element signature="e#3420#3534#0#PHP" expanded="false" />
-            <element signature="e#3635#4425#0#PHP" expanded="false" />
-            <element signature="e#3742#3921#0#PHP" expanded="false" />
-            <element signature="e#3923#4321#0#PHP" expanded="false" />
-            <element signature="e#3948#4205#0#PHP" expanded="false" />
-            <element signature="e#4275#4321#0#PHP" expanded="false" />
-            <element signature="e#4324#4423#0#PHP" expanded="false" />
-            <element signature="e#5032#5085#0#PHP" expanded="false" />
-            <element signature="e#5324#5825#0#PHP" expanded="false" />
-            <element signature="e#5827#5865#0#PHP" expanded="false" />
-            <element signature="e#5866#6438#0#PHP" expanded="false" />
-            <element signature="e#5919#6436#0#PHP" expanded="false" />
-            <element signature="e#6048#6436#0#PHP" expanded="false" />
-            <element signature="e#6217#6433#0#PHP" expanded="false" />
-            <element signature="e#6473#6528#0#PHP" expanded="false" />
-            <element signature="e#6530#6599#0#PHP" expanded="false" />
-            <element signature="e#6709#6862#0#PHP" expanded="false" />
-            <element signature="e#6891#6999#0#PHP" expanded="false" />
-            <element signature="e#6957#6999#0#PHP" expanded="false" />
-            <element signature="e#7000#7147#0#PHP" expanded="false" />
-            <element signature="e#7148#7221#0#PHP" expanded="false" />
-            <element signature="e#7222#35020#0#PHP" expanded="false" />
-            <element signature="e#7316#7422#0#PHP" expanded="false" />
-            <element signature="e#7425#7818#0#PHP" expanded="false" />
-            <element signature="e#7821#8670#0#PHP" expanded="false" />
-            <element signature="e#7973#8223#0#PHP" expanded="false" />
-            <element signature="e#8087#8223#0#PHP" expanded="false" />
-            <element signature="e#8227#8568#0#PHP" expanded="false" />
-            <element signature="e#8272#8565#0#PHP" expanded="false" />
-            <element signature="e#8419#8565#0#PHP" expanded="false" />
-            <element signature="e#8569#8670#0#PHP" expanded="false" />
-            <element signature="e#8673#8877#0#PHP" expanded="false" />
-            <element signature="e#8934#9335#0#PHP" expanded="false" />
-            <element signature="e#9045#9332#0#PHP" expanded="false" />
-            <element signature="e#9090#9190#0#PHP" expanded="false" />
-            <element signature="e#9420#9545#0#PHP" expanded="false" />
-            <element signature="e#9599#9909#0#PHP" expanded="false" />
-            <element signature="e#9750#9861#0#PHP" expanded="false" />
-            <element signature="e#9815#9861#0#PHP" expanded="false" />
-            <element signature="e#9865#9909#0#PHP" expanded="false" />
-            <element signature="e#10196#10893#0#PHP" expanded="false" />
-            <element signature="e#10257#10420#0#PHP" expanded="false" />
-            <element signature="e#10600#10890#0#PHP" expanded="false" />
-            <element signature="e#10745#10886#0#PHP" expanded="false" />
-            <element signature="e#10896#11468#0#PHP" expanded="false" />
-            <element signature="e#10921#10949#0#PHP" expanded="false" />
-            <element signature="e#10950#10976#0#PHP" expanded="false" />
-            <element signature="e#10977#11005#0#PHP" expanded="false" />
-            <element signature="e#11006#11468#0#PHP" expanded="false" />
-            <element signature="e#11197#11358#0#PHP" expanded="false" />
-            <element signature="e#11944#12147#0#PHP" expanded="false" />
-            <element signature="e#12206#12420#0#PHP" expanded="false" />
-            <element signature="e#12613#12806#0#PHP" expanded="false" />
-            <element signature="e#13078#13204#0#PHP" expanded="false" />
-            <element signature="e#13440#13697#0#PHP" expanded="false" />
-            <element signature="e#13508#13694#0#PHP" expanded="false" />
-            <element signature="e#13699#13793#0#PHP" expanded="false" />
-            <element signature="e#14136#14486#0#PHP" expanded="false" />
-            <element signature="e#14392#14483#0#PHP" expanded="false" />
-            <element signature="e#14489#15158#0#PHP" expanded="false" />
-            <element signature="e#14728#15056#0#PHP" expanded="false" />
-            <element signature="e#14774#15053#0#PHP" expanded="false" />
-            <element signature="e#14924#15053#0#PHP" expanded="false" />
-            <element signature="e#15057#15158#0#PHP" expanded="false" />
-            <element signature="e#15161#15366#0#PHP" expanded="false" />
-            <element signature="e#15369#15619#0#PHP" expanded="false" />
-            <element signature="e#15430#15619#0#PHP" expanded="false" />
-            <element signature="e#15677#19319#0#PHP" expanded="false" />
-            <element signature="e#15815#15873#0#PHP" expanded="false" />
-            <element signature="e#15876#16425#0#PHP" expanded="false" />
-            <element signature="e#15996#16159#0#PHP" expanded="false" />
-            <element signature="e#16160#16275#0#PHP" expanded="false" />
-            <element signature="e#16276#16425#0#PHP" expanded="false" />
-            <element signature="e#16450#16714#0#PHP" expanded="false" />
-            <element signature="e#16545#16710#0#PHP" expanded="false" />
-            <element signature="e#16601#16705#0#PHP" expanded="false" />
-            <element signature="e#16852#16904#0#PHP" expanded="false" />
-            <element signature="e#16919#17196#0#PHP" expanded="false" />
-            <element signature="e#16953#17190#0#PHP" expanded="false" />
-            <element signature="e#17558#17983#0#PHP" expanded="false" />
-            <element signature="e#17621#17978#0#PHP" expanded="false" />
-            <element signature="e#17684#17977#0#PHP" expanded="false" />
-            <element signature="e#18123#19139#0#PHP" expanded="false" />
-            <element signature="e#18203#18598#0#PHP" expanded="false" />
-            <element signature="e#18356#18593#0#PHP" expanded="false" />
-            <element signature="e#18408#18587#0#PHP" expanded="false" />
-            <element signature="e#18490#18580#0#PHP" expanded="false" />
-            <element signature="e#18619#18789#0#PHP" expanded="false" />
-            <element signature="e#18794#19135#0#PHP" expanded="false" />
-            <element signature="e#18915#19135#0#PHP" expanded="false" />
-            <element signature="e#18926#19129#0#PHP" expanded="false" />
-            <element signature="e#18960#19128#1#PHP" expanded="false" />
-            <element signature="e#19322#19551#0#PHP" expanded="false" />
-            <element signature="e#19553#20248#0#PHP" expanded="false" />
-            <element signature="e#19652#20244#0#PHP" expanded="false" />
-            <element signature="e#19857#20240#0#PHP" expanded="false" />
-            <element signature="e#20343#20861#0#PHP" expanded="false" />
-            <element signature="e#20866#21047#0#PHP" expanded="false" />
-            <element signature="e#21247#21370#0#PHP" expanded="false" />
-            <element signature="e#21580#21702#0#PHP" expanded="false" />
-            <element signature="e#21884#22050#0#PHP" expanded="false" />
-            <element signature="e#22052#22232#0#PHP" expanded="false" />
-            <element signature="e#22234#22345#0#PHP" expanded="false" />
-            <element signature="e#22434#22615#0#PHP" expanded="false" />
-            <element signature="e#22705#23405#0#PHP" expanded="false" />
-            <element signature="e#22739#23402#0#PHP" expanded="false" />
-            <element signature="e#23029#23215#0#PHP" expanded="false" />
-            <element signature="e#23216#23402#0#PHP" expanded="false" />
-            <element signature="e#23411#23561#0#PHP" expanded="false" />
-            <element signature="e#23832#24202#0#PHP" expanded="false" />
-            <element signature="e#24019#24198#0#PHP" expanded="false" />
-            <element signature="e#24264#24324#0#PHP" expanded="false" />
-            <element signature="e#25259#35020#0#PHP" expanded="false" />
-            <element signature="e#25401#25499#0#PHP" expanded="false" />
-            <element signature="e#25809#26220#0#PHP" expanded="false" />
-            <element signature="e#26223#26489#0#PHP" expanded="false" />
-            <element signature="e#26752#27509#0#PHP" expanded="false" />
-            <element signature="e#26809#27099#0#PHP" expanded="false" />
-            <element signature="e#27100#27509#0#PHP" expanded="false" />
-            <element signature="e#27270#27506#0#PHP" expanded="false" />
-            <element signature="e#27587#28054#0#PHP" expanded="false" />
-            <element signature="e#27780#27920#0#PHP" expanded="false" />
-            <element signature="e#27923#28051#0#PHP" expanded="false" />
-            <element signature="e#28106#28547#0#PHP" expanded="false" />
-            <element signature="e#28180#28544#0#PHP" expanded="false" />
-            <element signature="e#28254#28382#0#PHP" expanded="false" />
-            <element signature="e#28549#28881#0#PHP" expanded="false" />
-            <element signature="e#28660#28878#0#PHP" expanded="false" />
-            <element signature="e#28705#28805#0#PHP" expanded="false" />
-            <element signature="e#29092#33698#0#PHP" expanded="false" />
-            <element signature="e#29143#29219#0#PHP" expanded="false" />
-            <element signature="e#29222#30510#0#PHP" expanded="false" />
-            <element signature="e#29362#29517#0#PHP" expanded="false" />
-            <element signature="e#29521#29674#0#PHP" expanded="false" />
-            <element signature="e#29678#29872#0#PHP" expanded="false" />
-            <element signature="e#29876#30066#0#PHP" expanded="false" />
-            <element signature="e#30070#30239#0#PHP" expanded="false" />
-            <element signature="e#30243#30388#0#PHP" expanded="false" />
-            <element signature="e#30514#30787#0#PHP" expanded="false" />
-            <element signature="e#30910#31088#0#PHP" expanded="false" />
-            <element signature="e#31352#32099#0#PHP" expanded="false" />
-            <element signature="e#32104#32308#0#PHP" expanded="false" />
-            <element signature="e#32311#32437#0#PHP" expanded="false" />
-            <element signature="e#32536#33698#0#PHP" expanded="false" />
-            <element signature="e#32545#32702#0#PHP" expanded="false" />
-            <element signature="e#32705#32852#0#PHP" expanded="false" />
-            <element signature="e#32855#33032#0#PHP" expanded="false" />
-            <element signature="e#33159#33313#0#PHP" expanded="false" />
-            <element signature="e#33316#33458#0#PHP" expanded="false" />
-            <element signature="e#33593#33661#0#PHP" expanded="false" />
-            <element signature="e#33701#34071#0#PHP" expanded="false" />
-            <element signature="e#33888#34067#0#PHP" expanded="false" />
-            <element signature="e#34074#34145#0#PHP" expanded="false" />
-            <element signature="e#34263#35017#0#PHP" expanded="false" />
-            <element signature="e#34298#34501#0#PHP" expanded="false" />
-            <element signature="e#34408#34501#0#PHP" expanded="false" />
-            <element signature="e#34505#35017#0#PHP" expanded="false" />
-            <element signature="e#34514#35014#0#PHP" expanded="false" />
-            <element signature="e#34571#35014#0#PHP" expanded="false" />
-            <element signature="e#34580#35010#0#PHP" expanded="false" />
-            <element signature="e#34796#35010#0#PHP" expanded="false" />
-            <element signature="n#check_allow_action#0;n#!!top" expanded="false" />
-            <element signature="e#35088#35195#0#PHP" expanded="false" />
-            <element signature="n#recent_use_tag#0;n#!!top" expanded="false" />
-            <element signature="e#35365#35515#0#PHP" expanded="false" />
-            <element signature="e#35396#35422#0#PHP" expanded="false" />
-            <element signature="e#35425#35477#0#PHP" expanded="false" />
-            <element signature="e#35517#35686#0#PHP" expanded="false" />
-            <element signature="e#35600#35683#0#PHP" expanded="false" />
-            <element signature="n#jsonnoperm#0;n#!!top" expanded="false" />
-            <element signature="e#35798#35904#0#PHP" expanded="false" />
-            <element signature="e#35979#36123#0#PHP" expanded="false" />
-            <element signature="e#36216#36412#0#PHP" expanded="false" />
-            <element signature="e#36414#36535#0#PHP" expanded="false" />
-            <element signature="e#36476#36535#0#PHP" expanded="false" />
-            <element signature="e#36538#37102#0#PHP" expanded="false" />
-            <element signature="e#36806#37099#0#PHP" expanded="false" />
-            <element signature="e#37242#37640#0#PHP" expanded="false" />
-            <element signature="e#37266#37637#0#PHP" expanded="false" />
-            <element signature="e#37294#37632#0#PHP" expanded="false" />
-            <element signature="e#37439#37632#0#PHP" expanded="false" />
-            <element signature="e#37657#37836#0#PHP" expanded="false" />
-            <element signature="e#37721#37836#0#PHP" expanded="false" />
-            <element signature="e#37730#37833#0#PHP" expanded="false" />
-            <element signature="e#37787#37833#0#PHP" expanded="false" />
-            <element signature="n#checkexpiration#0;n#!!top" expanded="false" />
-            <element signature="e#38061#38561#0#PHP" expanded="false" />
-            <element signature="e#38280#38529#0#PHP" expanded="false" />
-            <element signature="e#38533#38561#0#PHP" expanded="false" />
-            <element signature="n#set_stamp#0;n#!!top" expanded="false" />
-            <element signature="e#38713#38756#0#PHP" expanded="false" />
-            <element signature="e#38758#39176#0#PHP" expanded="false" />
-            <element signature="e#38821#39045#0#PHP" expanded="false" />
-            <element signature="e#38927#39045#0#PHP" expanded="false" />
-            <element signature="n#get_expiration#0;n#!!top" expanded="false" />
-            <element signature="e#39244#39295#0#PHP" expanded="false" />
-            <element signature="n#formulaperm1#0;n#!!top" expanded="false" />
-            <element signature="e#39495#39546#0#PHP" expanded="false" />
-            <element signature="e#39688#40626#0#PHP" expanded="false" />
-            <element signature="e#39819#40236#0#PHP" expanded="false" />
-            <element signature="e#40002#40205#0#PHP" expanded="false" />
-            <element signature="e#40044#40200#0#PHP" expanded="false" />
-            <element signature="e#40114#40194#0#PHP" expanded="false" />
-            <element signature="e#40210#40236#0#PHP" expanded="false" />
-            <element signature="e#40239#40623#0#PHP" expanded="false" />
-            <element signature="e#40284#40577#0#PHP" expanded="false" />
-            <element signature="e#40321#40572#0#PHP" expanded="false" />
-            <element signature="e#40682#40828#0#PHP" expanded="false" />
-            <element signature="e#40830#41081#0#PHP" expanded="false" />
-            <element signature="e#40977#41078#0#PHP" expanded="false" />
-            <element signature="e#41083#41117#0#PHP" expanded="false" />
-            <element signature="e#41119#42605#0#PHP" expanded="false" />
-            <element signature="e#41261#41975#0#PHP" expanded="false" />
-            <element signature="e#41291#41971#0#PHP" expanded="false" />
-            <element signature="e#41312#41474#0#PHP" expanded="false" />
-            <element signature="e#41479#41505#0#PHP" expanded="false" />
-            <element signature="e#41528#41744#0#PHP" expanded="false" />
-            <element signature="e#41773#41842#0#PHP" expanded="false" />
-            <element signature="e#41847#41966#0#PHP" expanded="false" />
-            <element signature="e#42006#42602#0#PHP" expanded="false" />
-            <element signature="e#42061#42185#0#PHP" expanded="false" />
-            <element signature="e#42189#42300#0#PHP" expanded="false" />
-            <element signature="e#42406#42602#0#PHP" expanded="false" />
-            <element signature="e#42416#42504#0#PHP" expanded="false" />
-            <element signature="e#42508#42598#0#PHP" expanded="false" />
-            <element signature="e#42661#42730#0#PHP" expanded="false" />
-            <element signature="e#42747#42795#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/api/uc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.25" vertical-offset="399" max-vertical-offset="8037">
-          <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="11788" max-vertical-offset="21793">
+          <caret line="633" column="16" selection-start-line="633" selection-start-column="12" selection-end-line="633" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upload/uc_server/model/note.php">
+    <entry file="jar://$APPLICATION_PLUGINS_DIR$/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.5" vertical-offset="456" max-vertical-offset="4180">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="21" />
-          <folding>
-            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..UC_DBTABLEPREnotelist..." />
-            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..UC_DBTABLEPREnotelist..." />
-            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..UC_DBTABLEPREnotelist..." />
-            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1409800958000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..UC_DBTABLEPREnotelist..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/version.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.714286" vertical-offset="23" max-vertical-offset="589">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="10410" max-vertical-offset="20121">
+          <caret line="498" column="9" selection-start-line="498" selection-start-column="9" selection-end-line="498" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/tag.php">
+    <entry file="file://$PROJECT_DIR$/upload/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="34.964287" vertical-offset="1093" max-vertical-offset="1615">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.12688822" vertical-offset="6209" max-vertical-offset="8759">
+          <caret line="335" column="17" selection-start-line="335" selection-start-column="17" selection-end-line="335" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/pm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="14.25" vertical-offset="399" max-vertical-offset="7087">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/pm_client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6785714" vertical-offset="4883" max-vertical-offset="8094">
-          <caret line="263" column="25" selection-start-line="263" selection-start-column="25" selection-end-line="263" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="51.035713" vertical-offset="1429" max-vertical-offset="2622">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1409800958000" expanded="true" signature="1335:1418" placeholder="SELECT * FRO..UC_DBTABLEPREapplications..." />
-            <marker date="1409800958000" expanded="true" signature="1567:1915" placeholder="INSERT INTO ..." />
-            <marker date="1409800958000" expanded="true" signature="2426:2520" placeholder="SELECT appid..UC_DBTABLEPREapplications..." />
-            <marker date="1409800958000" expanded="true" signature="3165:3220" placeholder="SELECT DISTI..UC_DBTABLEPREapplications..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/credit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.64285713" vertical-offset="381" max-vertical-offset="931">
-          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/domain.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.821428" vertical-offset="1" max-vertical-offset="551">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/uc_client/control/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="65.77586" vertical-offset="4043" max-vertical-offset="5035">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <marker date="1422694416416" expanded="true" signature="4978:5054" placeholder="SELECT uid,u..UC_DBTABLEPREprotectedmembers..." />
-            <marker date="1422694416416" expanded="true" signature="5964:6055" placeholder="DELETE FROM ..." />
-            <marker date="1422694416416" expanded="true" signature="6523:6630" placeholder="DELETE FROM ..." />
-            <marker date="1422694416416" expanded="true" signature="6765:6869" placeholder="DELETE FROM ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/admin/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2142857" vertical-offset="346" max-vertical-offset="1026">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding>
-            <element signature="n#__construct#0;n#control#0;n#!!top" expanded="false" />
-            <element signature="n#control#0;n#control#0;n#!!top" expanded="false" />
-            <element signature="e#840#1026#0#PHP" expanded="false" />
-            <element signature="e#899#1022#0#PHP" expanded="false" />
-            <element signature="n#onlogin#0;n#control#0;n#!!top" expanded="false" />
-            <element signature="e#1340#1421#0#PHP" expanded="false" />
-            <element signature="e#1554#4600#0#PHP" expanded="false" />
-            <element signature="e#1700#4596#0#PHP" expanded="false" />
-            <element signature="e#1736#1998#0#PHP" expanded="false" />
-            <element signature="e#1845#1998#0#PHP" expanded="false" />
-            <element signature="e#2004#4596#0#PHP" expanded="false" />
-            <element signature="e#2295#4591#0#PHP" expanded="false" />
-            <element signature="e#2401#4591#0#PHP" expanded="false" />
-            <element signature="e#2491#3411#0#PHP" expanded="false" />
-            <element signature="e#2633#2851#0#PHP" expanded="false" />
-            <element signature="e#2790#2851#0#PHP" expanded="false" />
-            <element signature="e#2859#3411#0#PHP" expanded="false" />
-            <element signature="e#3064#3404#0#PHP" expanded="false" />
-            <element signature="e#3151#3328#0#PHP" expanded="false" />
-            <element signature="e#3267#3328#0#PHP" expanded="false" />
-            <element signature="e#3337#3404#0#PHP" expanded="false" />
-            <element signature="e#3418#4585#0#PHP" expanded="false" />
-            <element signature="e#3611#3883#0#PHP" expanded="false" />
-            <element signature="e#3763#3883#0#PHP" expanded="false" />
-            <element signature="e#3891#4585#0#PHP" expanded="false" />
-            <element signature="e#3904#4112#0#PHP" expanded="false" />
-            <element signature="e#4120#4578#0#PHP" expanded="false" />
-            <element signature="e#4429#4578#0#PHP" expanded="false" />
-            <element signature="n#onlogout#0;n#control#0;n#!!top" expanded="false" />
-            <element signature="n#onadd#0;n#control#0;n#!!top" expanded="false" />
-            <element signature="e#5154#5202#0#PHP" expanded="false" />
-            <element signature="e#5323#5708#0#PHP" expanded="false" />
-            <element signature="e#5382#5704#0#PHP" expanded="false" />
-            <element signature="e#5490#5598#0#PHP" expanded="false" />
-            <element signature="e#5599#5704#0#PHP" expanded="false" />
-            <element signature="e#5711#6086#0#PHP" expanded="false" />
-            <element signature="e#5764#6082#0#PHP" expanded="false" />
-            <element signature="e#5875#5982#0#PHP" expanded="false" />
-            <element signature="e#5983#6082#0#PHP" expanded="false" />
-            <element signature="n#onls#0;n#control#0;n#!!top" expanded="false" />
-            <element signature="e#6310#6774#0#PHP" expanded="false" />
-            <element signature="e#6514#6770#0#PHP" expanded="false" />
-            <element signature="e#6575#6765#0#PHP" expanded="false" />
-            <element signature="e#6820#6993#0#PHP" expanded="false" />
-            <element signature="e#7297#7412#0#PHP" expanded="false" />
-            <element signature="e#7415#7515#0#PHP" expanded="false" />
-            <element signature="e#7518#7628#0#PHP" expanded="false" />
-            <element signature="e#7631#7786#0#PHP" expanded="false" />
-            <element signature="e#7789#7936#0#PHP" expanded="false" />
-            <element signature="e#7939#8049#0#PHP" expanded="false" />
-            <element signature="e#8225#8378#0#PHP" expanded="false" />
-            <element signature="n#onedit#0;n#control#0;n#!!top" expanded="false" />
-            <element signature="e#8931#9153#0#PHP" expanded="false" />
-            <element signature="e#9086#9149#0#PHP" expanded="false" />
-            <element signature="e#9157#10371#0#PHP" expanded="false" />
-            <element signature="e#9448#9789#0#PHP" expanded="false" />
-            <element signature="e#9484#9587#0#PHP" expanded="false" />
-            <element signature="e#9793#10091#0#PHP" expanded="false" />
-            <element signature="e#10095#10147#0#PHP" expanded="false" />
-            <element signature="e#10151#10224#0#PHP" expanded="false" />
-            <element signature="n#_check_username#0;n#control#0;n#!!top" expanded="false" />
-            <element signature="e#10880#11178#0#PHP" expanded="false" />
-            <element signature="e#10969#11078#0#PHP" expanded="false" />
-            <element signature="e#11083#11178#0#PHP" expanded="false" />
-            <element signature="n#_check_email#0;n#control#0;n#!!top" expanded="false" />
-            <element signature="e#11230#11559#0#PHP" expanded="false" />
-            <element signature="e#11322#11417#0#PHP" expanded="false" />
-            <element signature="e#11418#11535#0#PHP" expanded="false" />
-            <element signature="e#11536#11559#0#PHP" expanded="false" />
-            <element signature="n#_format_userlist#0;n#control#0;n#!!top" expanded="false" />
-            <element signature="e#11607#11746#0#PHP" expanded="false" />
-            <element signature="e#11636#11742#0#PHP" expanded="false" />
-            <marker date="1422695526210" expanded="false" signature="1623:1693" placeholder="SELECT * FRO..UC_DBTABLEPREfailedlogins..." />
-            <marker date="1422695526210" expanded="false" signature="1917:1989" placeholder="DELETE FROM ..." />
-            <marker date="1422695526210" expanded="false" signature="2905:3054" placeholder="SELECT a.uid..UC_DBTABLEPREadmins..." />
-            <marker date="1422695526210" expanded="false" signature="4215:4287" placeholder="DELETE FROM ..." />
-            <marker date="1422695526210" expanded="false" signature="4316:4417" placeholder="INSERT INTO ..." />
-            <marker date="1422695526210" expanded="false" signature="9006:9079" placeholder="SELECT COUNT..UC_DBTABLEPREprotectedmembers..." />
-            <marker date="1422695526210" expanded="false" signature="10408:10463" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/uc_server/model/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.2413793" vertical-offset="171" max-vertical-offset="4959">
-          <caret line="30" column="33" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="33" />
-          <folding>
-            <marker date="1425285090823" expanded="true" signature="458:513" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
-            <marker date="1425285090823" expanded="true" signature="613:678" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
-            <marker date="1425285090823" expanded="true" signature="772:831" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
-            <marker date="1425285090823" expanded="true" signature="1659:1778" placeholder="SELECT count..UC_DBTABLEPREmergemembers..." />
-            <marker date="1425285090823" expanded="true" signature="2619:2691" placeholder="SELECT usern..UC_DBTABLEPREmembers..." />
-            <marker date="1425285090823" expanded="true" signature="2809:2871" placeholder="SELECT usern..UC_DBTABLEPREmembers..." />
-            <marker date="1425285090823" expanded="true" signature="3149:3232" placeholder="UPDATE membe..." />
-            <marker date="1425285090823" expanded="true" signature="4166:4231" placeholder="SELECT email..UC_DBTABLEPREmembers..." />
-            <marker date="1425285090823" expanded="true" signature="4949:5119" placeholder="INSERT INTO ..." />
-            <marker date="1425285090823" expanded="true" signature="5176:5232" placeholder="INSERT INTO ..." />
-            <marker date="1425285090823" expanded="true" signature="5396:5489" placeholder="SELECT usern..UC_DBTABLEPREmembers..." />
-            <marker date="1425285090823" expanded="true" signature="5558:5637" placeholder="SELECT COUNT..UC_DBTABLEPREprotectedmembers..." />
-            <marker date="1425285090823" expanded="true" signature="6510:6580" placeholder="SELECT uid F..UC_DBTABLEPREprotectedmembers..." />
-            <marker date="1425285090823" expanded="true" signature="6771:6827" placeholder="DELETE FROM ..." />
-            <marker date="1425285090823" expanded="true" signature="6852:6913" placeholder="DELETE FROM ..." />
-            <marker date="1425285090823" expanded="true" signature="8029:8075" placeholder="SELECT COUNT..UC_DBTABLEPREmembers..." />
-            <marker date="1425285090823" expanded="true" signature="8256:8317" placeholder="SELECT * FRO..UC_DBTABLEPREmembers..." />
-            <marker date="1425285090823" expanded="true" signature="8516:8586" placeholder="SELECT uid F..UC_DBTABLEPREmembers..." />
-            <marker date="1425285090823" expanded="true" signature="8783:8882" placeholder="SELECT uid, ..UC_DBTABLEPREmembers..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/uc_server/control/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.575" vertical-offset="1220" max-vertical-offset="2299">
-          <caret line="306" column="0" selection-start-line="306" selection-start-column="0" selection-end-line="306" selection-end-column="0" />
-          <folding>
-            <element signature="n#__construct#0;n#usercontrol#0;n#!!top" expanded="false" />
-            <element signature="n#usercontrol#0;n#usercontrol#0;n#!!top" expanded="false" />
-            <element signature="n#onsynlogin#0;n#usercontrol#0;n#!!top" expanded="false" />
-            <element signature="e#711#1732#0#PHP" expanded="false" />
-            <element signature="e#743#1728#0#PHP" expanded="false" />
-            <element signature="e#822#1703#0#PHP" expanded="false" />
-            <element signature="e#877#1697#0#PHP" expanded="false" />
-            <element signature="e#1290#1690#0#PHP" expanded="false" />
-            <element signature="n#onsynlogout#0;n#usercontrol#0;n#!!top" expanded="false" />
-            <element signature="e#1801#2547#0#PHP" expanded="false" />
-            <element signature="e#1850#2524#0#PHP" expanded="false" />
-            <element signature="e#1904#2519#0#PHP" expanded="false" />
-            <element signature="e#2215#2513#0#PHP" expanded="false" />
-            <element signature="n#onregister#0;n#usercontrol#0;n#!!top" expanded="false" />
-            <element signature="e#2845#2923#0#PHP" expanded="false" />
-            <element signature="e#2926#2998#0#PHP" expanded="false" />
-            <element signature="e#3431#3541#0#PHP" expanded="false" />
-            <element signature="n#onlogin#0;n#usercontrol#0;n#!!top" expanded="false" />
-            <element signature="e#4123#4350#0#PHP" expanded="false" />
-            <element signature="e#4199#4280#0#PHP" expanded="false" />
-            <element signature="e#4281#4350#0#PHP" expanded="false" />
-            <element signature="e#4437#4736#0#PHP" expanded="false" />
-            <element signature="e#4477#4560#0#PHP" expanded="false" />
-            <element signature="e#4561#4698#0#PHP" expanded="false" />
-            <element signature="e#4699#4736#0#PHP" expanded="false" />
-            <element signature="n#oncheck_email#0;n#usercontrol#0;n#!!top" expanded="false" />
-            <element signature="n#oncheck_username#0;n#usercontrol#0;n#!!top" expanded="false" />
-            <element signature="e#5133#5235#0#PHP" expanded="false" />
-            <element signature="e#5212#5235#0#PHP" expanded="false" />
-            <element signature="n#onget_user#0;n#usercontrol#0;n#!!top" expanded="false" />
-            <element signature="e#5330#5490#0#PHP" expanded="false" />
-            <element signature="e#5424#5490#0#PHP" expanded="false" />
-            <element signature="e#5493#5604#0#PHP" expanded="false" />
-            <element signature="e#5581#5604#0#PHP" expanded="false" />
-            <element signature="n#ongetprotected#0;n#usercontrol#0;n#!!top" expanded="false" />
-            <element signature="n#ondelete#0;n#usercontrol#0;n#!!top" expanded="false" />
-            <element signature="n#ondeleteavatar#0;n#usercontrol#0;n#!!top" expanded="false" />
-            <element signature="n#onaddprotected#0;n#usercontrol#0;n#!!top" expanded="false" />
-            <element signature="e#6239#6536#0#PHP" expanded="false" />
-            <element signature="n#ondeleteprotected#0;n#usercontrol#0;n#!!top" expanded="false" />
-            <element signature="e#6741#6895#0#PHP" expanded="false" />
-            <element signature="n#onmerge#0;n#usercontrol#0;n#!!top" expanded="false" />
-            <element signature="e#7181#7262#0#PHP" expanded="false" />
-            <element signature="n#onmerge_remove#0;n#usercontrol#0;n#!!top" expanded="false" />
-            <element signature="n#_check_username#0;n#usercontrol#0;n#!!top" expanded="false" />
-            <element signature="e#8749#9035#0#PHP" expanded="false" />
-            <element signature="e#8842#8939#0#PHP" expanded="false" />
-            <element signature="e#8940#9035#0#PHP" expanded="false" />
-            <element signature="n#_check_email#0;n#usercontrol#0;n#!!top" expanded="false" />
-            <element signature="e#9103#9443#0#PHP" expanded="false" />
-            <element signature="e#9195#9290#0#PHP" expanded="false" />
-            <element signature="e#9291#9419#0#PHP" expanded="false" />
-            <element signature="e#9420#9443#0#PHP" expanded="false" />
-            <element signature="n#ongetcredit#0;n#usercontrol#0;n#!!top" expanded="false" />
-            <element signature="e#9789#10169#0#PHP" expanded="false" />
-            <element signature="e#9990#10169#0#PHP" expanded="false" />
-            <element signature="n#onuploadavatar#0;n#usercontrol#0;n#!!top" expanded="false" />
-            <element signature="e#10478#10513#0#PHP" expanded="false" />
-            <element signature="e#10516#10566#0#PHP" expanded="false" />
-            <element signature="e#10657#10758#0#PHP" expanded="false" />
-            <element signature="e#10995#11401#0#PHP" expanded="false" />
-            <element signature="e#11235#11327#0#PHP" expanded="false" />
-            <element signature="e#11332#11401#0#PHP" expanded="false" />
-            <element signature="n#onrectavatar#0;n#usercontrol#0;n#!!top" expanded="false" />
-            <element signature="e#11776#11859#0#PHP" expanded="false" />
-            <element signature="e#11895#11992#0#PHP" expanded="false" />
-            <element signature="e#12537#12655#0#PHP" expanded="false" />
-            <element signature="e#13076#13392#0#PHP" expanded="false" />
-            <element signature="e#13472#13637#0#PHP" expanded="false" />
-            <element signature="e#13559#13637#0#PHP" expanded="false" />
-            <element signature="n#flashdata_decode#0;n#usercontrol#0;n#!!top" expanded="false" />
-            <element signature="e#13708#13879#0#PHP" expanded="false" />
-            <marker date="1425286762732" expanded="false" signature="5683:5759" placeholder="SELECT uid,u..UC_DBTABLEPREprotectedmembers..." />
-            <marker date="1425286762732" expanded="false" signature="6797:6888" placeholder="DELETE FROM ..." />
-            <marker date="1425286762732" expanded="false" signature="7356:7463" placeholder="DELETE FROM ..." />
-            <marker date="1425286762732" expanded="false" signature="8524:8628" placeholder="DELETE FROM ..." />
-          </folding>
         </state>
       </provider>
     </entry>
